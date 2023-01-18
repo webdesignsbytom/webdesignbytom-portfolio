@@ -19,7 +19,7 @@ const userRouter = require('./routes/users')
 const authRouter = require('./routes/auth')
 
 app.use('/users', userRouter) // user data
-app.use('/', userRouter) // register
-app.use('/', authRouter)  // login 
+// app.use('/', userRouter) // register
+// app.use('/', authRouter)  // login 
 
 module.exports = app
