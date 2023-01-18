@@ -1,10 +1,10 @@
 import React from 'react';
 import './portfolio.css';
-import Portfolio1 from '../../assets/portfolio1.jpg';
-import Portfolio2 from '../../assets/portfolio2.jpg';
-import Portfolio3 from '../../assets/portfolio3.jpg';
-import Portfolio4 from '../../assets/portfolio4.jpg';
-import Portfolio5 from '../../assets/portfolio5.png';
+import Portfolio1 from '../../assets/images/portfolio1.jpg';
+import Portfolio2 from '../../assets/images/portfolio2.jpg';
+import Portfolio3 from '../../assets/images/portfolio3.jpg';
+import Portfolio4 from '../../assets/images/portfolio4.jpg';
+import Portfolio5 from '../../assets/images/portfolio5.png';
 
 const data = [
   {

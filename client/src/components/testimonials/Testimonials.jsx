@@ -1,9 +1,9 @@
 import React from 'react';
 import './testimonials.css';
-import avatar1 from '../../assets/avatar1.jpg';
-import avatar2 from '../../assets/avatar2.jpg';
-import avatar3 from '../../assets/avatar3.jpg';
-import avatar4 from '../../assets/avatar4.jpg';
+import avatar1 from '../../assets/images/avatar1.jpg';
+import avatar2 from '../../assets/images/avatar2.jpg';
+import avatar3 from '../../assets/images/avatar3.jpg';
+import avatar4 from '../../assets/images/avatar4.jpg';
 
 import { Navigation, Pagination } from 'swiper';
 
