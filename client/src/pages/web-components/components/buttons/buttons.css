@@ -1,0 +1,47 @@
+.buttons__container {
+  display: grid;
+}
+
+.buttons {
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 200px);
+}
+
+.btn__container {
+  display: grid;
+  gap: 1rem;
+}
+
+.btn-1 {
+  padding: 1rem;
+}
+.btn-2 {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.btn-3 {
+  padding: 1rem;
+}
+.btn-4 {
+  padding: 1rem;
+}
+.btn-5 {
+  padding: 1rem;
+}
+.btn-6 {
+  padding: 1rem;
+}
+.btn-7 {
+  padding: 1rem;
+}
+.btn-8 {
+  padding: 1rem;
+}
+.btn-9 {
+  padding: 1rem;
+}
+.btn-10 {
+  padding: 1rem;
+}
