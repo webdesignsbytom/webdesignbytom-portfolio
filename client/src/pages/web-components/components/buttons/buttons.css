@@ -109,7 +109,6 @@
   background-color: white;
   font-size: 1.2rem;
 }
-
 @keyframes glow {
     0%, 100% {
         color: white;
@@ -130,4 +129,38 @@
   color: white;
   font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
+}
+
+.btn-17 {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn-17:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.btn-17:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
 }

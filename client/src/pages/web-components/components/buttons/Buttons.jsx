@@ -81,6 +81,22 @@ function Buttons() {
           <button className="btns btn-16">CLICK</button>
           <h4 className="title">Colour, size, font</h4>
         </div>
+        <div className="btn__container btn__container17">
+          <button className="btns btn-17">CLICK</button>
+          <h4 className="title">Bright Ripple on Click</h4>
+        </div>
+        <div className="btn__container btn__container18">
+          <button className="btns btn-18">CLICK</button>
+          <h4 className="title">Colour, size, font</h4>
+        </div>
+        <div className="btn__container btn__container19">
+          <button className="btns btn-19">CLICK</button>
+          <h4 className="title">Colour, size, font</h4>
+        </div>
+        <div className="btn__container btn__container20">
+          <button className="btns btn-20">CLICK</button>
+          <h4 className="title">Colour, size, font</h4>
+        </div>
       </section>
     </div>
   );
