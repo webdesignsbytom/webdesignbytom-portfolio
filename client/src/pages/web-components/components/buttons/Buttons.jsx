@@ -87,10 +87,10 @@ function Buttons() {
         </div>
         <div className="btn__container btn__container18">
           <button className="btns btn-18">CLICK</button>
-          <h4 className="title">Colour, size, font</h4>
+          <h4 className="title">Hover to animate</h4>
         </div>
         <div className="btn__container btn__container19">
-          <button className="btns btn-19">CLICK</button>
+          <button className="btns btn-19"><span>CLICK</span></button>
           <h4 className="title">Colour, size, font</h4>
         </div>
         <div className="btn__container btn__container20">
