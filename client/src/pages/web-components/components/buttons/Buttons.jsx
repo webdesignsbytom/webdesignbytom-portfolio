@@ -90,7 +90,7 @@ function Buttons() {
           <h4 className="title">Hover to animate</h4>
         </div>
         <div className="btn__container btn__container19">
-          <button className="btns btn-19"><span>CLICK</span></button>
+          <button className="btns btn-19"><div><span>CLICK</span></div></button>
           <h4 className="title">Colour, size, font</h4>
         </div>
         <div className="btn__container btn__container20">
