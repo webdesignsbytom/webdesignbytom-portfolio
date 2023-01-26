@@ -1,0 +1,168 @@
+.orbit__container {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  background-color: red;
+  padding: 3rem 0;
+  transform-style: preserve-3d;
+}
+
+.planet {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(
+    #0097d1 0%,
+    #a763f4 10%,
+    #f7667c 50%,
+    #dbfcfc 100%
+  );
+  background-color: white;
+  background-size: cover;
+  background-repeat: repeat-x;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 1) 0 0 50px #4069ff;
+  animation: animatePlanet 15s linear infinite;
+  transform: rotate(-21deg);
+  z-index: 1;
+  border: none;
+}
+
+.circle {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    #0097d1 0%,
+    #a763f4 10%,
+    #f7667c 50%,
+    #dbfcfc 100%
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: spin 10s linear;
+}
+.outer__circle {
+  height: 300px;
+  width: 300px;
+}
+.circle:before {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: linear-gradient(#67d1e9 10%, #006a7b 50%, #00404e 100%);
+  transform: rotateZ(45deg);
+  filter: blur(20px);
+}
+
+.circle:after {
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 65px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+  bottom: -50%;
+  filter: blur(20px);
+}
+.satellite1 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite1 5s linear infinite;
+  transform: rotate(15deg);
+}
+
+@keyframes animateSatellite1 {
+  25% {
+    padding-left: 50rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 60rem;
+  }
+}
+
+.satellite2 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite2 8s linear infinite;
+  transform: rotate(45deg);
+}
+
+@keyframes animateSatellite2 {
+  25% {
+    padding-left: 40rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 60rem;
+  }
+}
+
+.satellite3 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite3 6s linear infinite;
+  transform: rotate(76deg);
+}
+
+@keyframes animateSatellite3 {
+  25% {
+    padding-left: 45rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 40rem;
+  }
+}
+
+.satellite4 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite4 12s linear infinite;
+  transform: rotate(-5deg);
+}
+
+@keyframes animateSatellite4 {
+  25% {
+    padding-left: 70rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 60rem;
+  }
+}
