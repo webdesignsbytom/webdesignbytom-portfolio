@@ -17,23 +17,23 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur sit amet consectetur.</p>
+              <p>Wireframe and figma designs using the latest design tools</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur sit amet consectetur.</p>
+              <p>Testing and collecting user experience data</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sitsit amet consectetur  amet consectetur.</p>
+              <p>Colour and style options. Hue matching and pallet building tools. </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Root set styles for speedy changes througout project.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit sit amet consectetur amet consectetur.</p>
+              <p></p>
             </li>
 
           </ul>
@@ -45,29 +45,33 @@ function Services() {
           </div>
 
           <ul className="service__list">
-            <li>
+          <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Fullstack web design and development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet sit amet consectetur consectetur.</p>
+              <p>Database and user services.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum sit amet consectetursit amet consecteturdolor sit amet consectetur.</p>
+              <p>Game and animation Development.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetursit amet consectetur.</p>
+              <p>Reactive and mobile friendly or mobile first design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum sit amet consecteturdolor sit amet consectetur.</p>
+              <p>Social medias supporting post/sharing dynamic </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetursit amet consectetur.</p>
+              <p>Video, webcam and chat communication services</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p></p>
             </li>
 
           </ul>
@@ -80,11 +84,11 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetursit amet consectetur sit amet consectetur.</p>
+              <p>Blog and recipe style pages</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolorsit amet consectetur sit amet consectetur.</p>
+              <p>Restful API services</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>

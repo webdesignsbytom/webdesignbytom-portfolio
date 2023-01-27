@@ -68,6 +68,18 @@
     margin: 2rem 0 2.6rem;
 }
 
+.button__container {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    gap: 22px;
+    place-content: start;
+}
+
+.projects__card:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;

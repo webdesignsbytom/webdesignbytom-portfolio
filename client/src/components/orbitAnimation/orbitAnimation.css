@@ -1,0 +1,131 @@
+.orbit__container {
+  width: 100%;
+  padding-top: 5rem;
+}
+
+.boundry__container {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgb(192, 192, 192);
+  background: linear-gradient(
+    153deg,
+    rgba(192, 192, 192, 1) 0%,
+    rgba(168, 168, 210, 1) 37%,
+    rgba(255, 255, 255, 1) 77%,
+    rgba(192, 192, 192, 1) 100%
+  );
+  background-size: cover;
+  background-repeat: repeat-x;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 1) 0 0 50px #4069ff;
+  transform: rotate(-21deg);
+  z-index: 1;
+  border: none;
+  position: absolute;
+}
+.satellite img {
+  width: 50px;
+  height: 50px;
+}
+.satellite1 {
+  position: absolute;
+  z-index: 2;
+  animation: animateSatellite1 10s linear infinite;
+  transform: rotate(15deg);
+}
+
+@keyframes animateSatellite1 {
+  25% {
+    padding-left: 50rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 60rem;
+  }
+}
+
+.satellite2 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite2 8s linear infinite;
+  transform: rotate(45deg);
+}
+
+@keyframes animateSatellite2 {
+  25% {
+    padding-left: 40rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 60rem;
+  }
+}
+
+.satellite3 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite3 6s linear infinite;
+  transform: rotate(76deg);
+}
+
+@keyframes animateSatellite3 {
+  25% {
+    padding-left: 45rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 40rem;
+  }
+}
+
+.satellite4 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite4 12s linear infinite;
+  transform: rotate(-5deg);
+}
+
+@keyframes animateSatellite4 {
+  25% {
+    padding-left: 70rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 60rem;
+  }
+}
