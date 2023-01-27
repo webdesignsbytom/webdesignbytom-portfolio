@@ -1,10 +1,9 @@
-import React from 'react'
-import './about.css'
-import ME from '../../assets/images/me.png'
-import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
-
+import React from 'react';
+import './about.css';
+import ME from '../../assets/images/me.png';
+import { FaAward } from 'react-icons/fa';
+import { FiUsers } from 'react-icons/fi';
+import { VscFolderLibrary } from 'react-icons/vsc';
 
 function About() {
   return (
@@ -12,45 +11,51 @@ function About() {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className="container about__container">
-
-        <div className="about__me">
-          <div className="about__me-image">
+      <div className='container about__container'>
+        <div className='about__me'>
+          <div className='about__me-image'>
             <img src={ME} alt='my picture' />
           </div>
         </div>
 
-        <div className="about__content">
-          <div className="about__cards">
+        <div className='about__content'>
+          <div className='about__cards'>
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>3+ years working</small>
+              <small>Junior Developer 1 Year</small>
+              <small>Electrical Engineer 5 Years</small>
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
+              <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>10+ worldwide</small>
+              <small>Multiple Private Hires</small><br />
+              <small>Friendly and understanding</small>
             </article>
 
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
+              <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>My interests</small>
+              <small>My Personal Projects</small><br />
+              <small>See what im building</small>
             </article>
-
-
-
           </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati officiis blanditiis natus et! Eligendi dolorem que nam nisi aut veniam repellat provident aperiam nostrum aliquam incidunt. Natus inventore asperiores itaque totam! que nam nisi aut veniam repellat provident aperiam nostrum aliquam incidunt. Natus inventore asperiores itaque totam!
-
-            </p>
-            <a href='#contact' className='btn btn-primary'>Lets talk!</a>
+          <p>
+             After years of electrical engineering and renewable energy installation, i have started developing websites for you! I have always worked in a design and engineering capacity. Completing jobs that have logic puzzles or require solving problems has always made me happy. My personal projects combine circuits and web design for developing products i hope to achieve success with.  
+          </p>
+          <div className='button__container'>
+            <a href='#contact' className='btn btn-primary'>
+              Lets talk!
+            </a>
+            <a href='#portfolio' className='btn btn-primary'>
+              Show Me Some Skills!
+            </a>
+          </div>
         </div>
       </div>
     </section>
-    )
+  );
 }
 
-export default About
+export default About;

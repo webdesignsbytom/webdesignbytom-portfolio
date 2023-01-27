@@ -17,8 +17,8 @@ function Home() {
       <Header />
       <Nav />
       <About />
-      <OrbitAnimation />
       <Portfolio />
+      <OrbitAnimation />
       <Experience />
       <Services />
       <Testimonials />

@@ -10,45 +10,35 @@ const data = [
   {
     id: 1,
     image: Portfolio1,
-    title: 'this thing i did once',
+    title: 'TavyEpoxy Furniture Sales',
     github: 'https://github.com',
     demo: 'https://github.com',
+    icons: []
   },
   {
     id: 2,
     image: Portfolio2,
-    title: 'this thing i did once',
+    title: 'Matched Betting information and training game',
     github: 'https://github.com',
     demo: 'https://github.com',
+    icons: []
   },
   {
     id: 3,
     image: Portfolio3,
-    title: 'this thing i did once',
+    title: 'Idle-Clicker game',
     github: 'https://github.com',
     demo: 'https://github.com',
+    icons: []
   },
   {
     id: 4,
     image: Portfolio4,
-    title: 'this thing i did once',
+    title: 'Luxury Casino',
     github: 'https://github.com',
     demo: 'https://github.com',
-  },
-  {
-    id: 5,
-    image: Portfolio5,
-    title: 'this thing i did once',
-    github: 'https://github.com',
-    demo: 'https://github.com',
-  },
-  {
-    id: 6,
-    image: Portfolio5,
-    title: 'this thing i did once',
-    github: 'https://github.com',
-    demo: 'https://github.com',
-  },
+    icons: []
+  }
 ];
 
 function Portfolio() {
@@ -71,6 +61,9 @@ function Portfolio() {
                 </a>
                 <a href={demo} className="btn btn-primary">
                   Live Demo
+                </a>
+                <a href='#' className="btn btn-primary">
+                  More Info
                 </a>
               </div>
             </article>
