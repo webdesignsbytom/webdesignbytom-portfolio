@@ -35,7 +35,6 @@
 .satellite1 {
   position: absolute;
   z-index: 2;
-  font-size: 3.2rem;
   animation: animateSatellite1 10s linear infinite;
   transform: rotate(15deg);
 }

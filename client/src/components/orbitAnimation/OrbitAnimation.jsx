@@ -9,10 +9,10 @@ function OrbitAnimation() {
     <div className='orbit__container'>
       <div className='boundry__container'>
         <div className='circle'></div>
-        <div class='satellite1'><img src={ReactIcon} alt="react" /></div>
-        <div class='satellite2'><img src={GitHubIcon} alt="github" /></div>
-        <div class='satellite3'><img src={HTML5Icon} alt="html5" /></div>
-        <div class='satellite4'>☄️</div>
+        <div class='satellite satellite1'><img src={ReactIcon} alt="react" /></div>
+        <div class='satellite satellite2'><img src={GitHubIcon} alt="github" /></div>
+        <div class='satellite satellite3'><img src={HTML5Icon} alt="html5" /></div>
+        <div class='satellite satellite4'>☄️</div>
       </div>
     </div>
   );
