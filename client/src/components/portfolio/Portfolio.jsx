@@ -7,6 +7,7 @@ import Portfolio4 from '../../assets/images/portfolio4.jpg';
 import Portfolio5 from '../../assets/images/portfolio5.png';
 import ReactIcon from '../../assets/images/react.svg';
 import HTML5Icon from '../../assets/images/html5.svg';
+import TailwindIcon from '../../assets/images/tailwindcss-icon.svg';
 import { useNavigate } from 'react-router-dom';
 
 const data = [
@@ -16,7 +17,7 @@ const data = [
     title: 'TavyEpoxy Furniture Sales',
     github: 'https://github.com',
     demo: 'https://github.com',
-    icons: [ReactIcon]
+    icons: [ReactIcon],
   },
   {
     id: 2,
@@ -24,7 +25,7 @@ const data = [
     title: 'Matched Betting information and training game',
     github: 'https://github.com',
     demo: 'https://github.com',
-    icons: [ReactIcon]
+    icons: [ReactIcon, TailwindIcon],
   },
   {
     id: 3,
@@ -32,7 +33,7 @@ const data = [
     title: 'Idle-Clicker game',
     github: 'https://github.com',
     demo: 'https://github.com',
-    icons: [ReactIcon]
+    icons: [ReactIcon],
   },
   {
     id: 4,
@@ -40,13 +41,12 @@ const data = [
     title: 'Luxury Casino',
     github: 'https://github.com',
     demo: 'https://github.com',
-    icons: [HTML5Icon]
-  }
+    icons: [HTML5Icon],
+  },
 ];
 
 function Portfolio() {
-
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const displayInfo = (event) => {
     console.log('ji');
@@ -54,31 +54,36 @@ function Portfolio() {
     navigate('/example', {
       replace: true,
     });
-
-  }
+  };
   return (
-    <section id="portfolio">
+    <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <div className='container portfolio__container'>
         {data.map(({ id, image, title, github, demo, icons }) => {
           return (
-            <article className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt="portfolio item" />
-                <img className='icon__container' src={icons[0]} alt="icon" />
+            <article className='portfolio__item'>
+              <div className='portfolio__item-image'>
+                <img src={image} alt='portfolio item' />
+                <div className='icon__container'>
+                  {icons.map((icon, index) => {
+                    return (
+                      <img className='icon' key={index} src={icon} alt='icon' />
+                    );
+                  })}
+                </div>
               </div>
 
               <h3 className='item__title'>{title}</h3>
-              <div className="protfolio__item-cta">
-                <a href={github} className="btn">
+              <div className='protfolio__item-cta'>
+                <a href={github} className='btn'>
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary">
+                <a href={demo} className='btn btn-primary'>
                   Live Demo
                 </a>
-                <a onClick={displayInfo} className="btn btn-primary">
+                <a onClick={displayInfo} className='btn btn-primary'>
                   More Info
                 </a>
               </div>
