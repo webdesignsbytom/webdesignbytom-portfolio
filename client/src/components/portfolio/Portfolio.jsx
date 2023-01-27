@@ -66,6 +66,7 @@ function Portfolio() {
             <article className='portfolio__item'>
               <div className='portfolio__item-image'>
                 <img src={image} alt='portfolio item' />
+                
                 <div className='icon__container'>
                   {icons.map((icon, index) => {
                     return (

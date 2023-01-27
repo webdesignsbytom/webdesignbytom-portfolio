@@ -37,10 +37,12 @@
 .item__title {
   padding: 0.5rem 0;
 }
-
+.icon {
+    width: 60px;
+    height: 60px;
+}
 .icon__container {
-  width: 80px;
-  height: 80px;
+
   z-index: 2;
   position: absolute;
   top: 20px;
@@ -48,6 +50,8 @@
   background-color: rgba(0, 0, 0, 0.854);
   padding: 0.8rem;
   border-radius: 50%;
+  display: grid;
+  grid-auto-flow: column;
 }
 
 @media screen and (max-width: 1024px) {
