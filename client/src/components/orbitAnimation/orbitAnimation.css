@@ -33,12 +33,6 @@
 }
 
 .satellite1 {
-  font-size: 3rem;
-  z-index: 2;
-  position: absolute;
-}
-/*
-.satellite1 {
   position: absolute;
   z-index: 2;
   font-size: 3.2rem;
@@ -60,4 +54,77 @@
   75% {
     padding-right: 60rem;
   }
-} */
+} 
+
+
+.satellite2 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite2 8s linear infinite;
+  transform: rotate(45deg);
+}
+
+@keyframes animateSatellite2 {
+  25% {
+    padding-left: 40rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 60rem;
+  }
+}
+
+.satellite3 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite3 6s linear infinite;
+  transform: rotate(76deg);
+}
+
+@keyframes animateSatellite3 {
+  25% {
+    padding-left: 45rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 40rem;
+  }
+}
+
+.satellite4 {
+  position: absolute;
+  z-index: 2;
+  font-size: 3.2rem;
+  animation: animateSatellite4 12s linear infinite;
+  transform: rotate(-5deg);
+}
+
+@keyframes animateSatellite4 {
+  25% {
+    padding-left: 70rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    font-size: 0.1rem;
+  }
+  75% {
+    padding-right: 60rem;
+  }
+}
