@@ -6,6 +6,7 @@ import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 function About() {
+
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -24,26 +25,43 @@ function About() {
               <FaAward className='about__icon' />
               <h5>Experience</h5>
               <small>Junior Developer 1 Year</small>
+              <br />
               <small>Electrical Engineer 5 Years</small>
+              <br />
+              <small>Renewable energy installer</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>Multiple Private Hires</small><br />
-              <small>Friendly and understanding</small>
+              <h5>Clients and Service</h5>
+              <small>Multiple Private Hires</small>
+              <br />
+              <small>Advice and information</small>
+              <br />
+              <small>Experienced Product Designer</small>
             </article>
 
-            <article className='about__card'>
+            <article
+              className='about__card projects__card'
+            >
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>My Personal Projects</small><br />
+              <small>My Personal Projects</small>
+              <br />
+              <small>Combining web and ciruit design</small>
+              <br />
               <small>See what im building</small>
             </article>
           </div>
           <p>
-             After years of electrical engineering and renewable energy installation, i have started developing websites for you! I have always worked in a design and engineering capacity. Completing jobs that have logic puzzles or require solving problems has always made me happy. My personal projects combine circuits and web design for developing products i hope to achieve success with.  
+            After years of electrical engineering and renewable energy
+            installation, i have started developing websites for you! I have
+            always worked in a design and engineering capacity. Completing jobs
+            that have logic puzzles or require solving problems has always made
+            me happy. My personal projects combine circuits and web design for
+            developing products i hope to achieve success with.
           </p>
+          <p>I am also an artist, carpenter, master scuba diver, syrup maker and entrepreneur</p>
           <div className='button__container'>
             <a href='#contact' className='btn btn-primary'>
               Lets talk!

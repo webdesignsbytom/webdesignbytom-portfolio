@@ -76,6 +76,10 @@
     place-content: start;
 }
 
+.projects__card:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
