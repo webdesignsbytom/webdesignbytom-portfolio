@@ -61,7 +61,7 @@ function About() {
             me happy. My personal projects combine circuits and web design for
             developing products i hope to achieve success with.
           </p>
-          <p>I am also an artist, carpenter, master scuba diver, syrup maker and entrepreneur</p>
+          <p>I am also an artist, carpenter, master scuba diver, syrup maker and entrepreneur.</p>
           <div className='button__container'>
             <a href='#contact' className='btn btn-primary'>
               Lets talk!

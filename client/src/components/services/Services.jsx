@@ -45,6 +45,10 @@ function Services() {
           </div>
 
           <ul className="service__list">
+          <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Fullstack web design and development</p>
+            </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Database and user services.</p>
@@ -84,7 +88,7 @@ function Services() {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolorsit amet consectetur sit amet consectetur.</p>
+              <p>Restful API services</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>

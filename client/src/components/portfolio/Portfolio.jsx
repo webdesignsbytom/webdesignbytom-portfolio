@@ -5,6 +5,8 @@ import Portfolio2 from '../../assets/images/portfolio2.jpg';
 import Portfolio3 from '../../assets/images/portfolio3.jpg';
 import Portfolio4 from '../../assets/images/portfolio4.jpg';
 import Portfolio5 from '../../assets/images/portfolio5.png';
+import ReactIcon from '../../assets/images/react.svg';
+import HTML5Icon from '../../assets/images/html5.svg';
 import { useNavigate } from 'react-router-dom';
 
 const data = [
@@ -14,7 +16,7 @@ const data = [
     title: 'TavyEpoxy Furniture Sales',
     github: 'https://github.com',
     demo: 'https://github.com',
-    icons: []
+    icons: [ReactIcon]
   },
   {
     id: 2,
@@ -22,7 +24,7 @@ const data = [
     title: 'Matched Betting information and training game',
     github: 'https://github.com',
     demo: 'https://github.com',
-    icons: []
+    icons: [ReactIcon]
   },
   {
     id: 3,
@@ -30,7 +32,7 @@ const data = [
     title: 'Idle-Clicker game',
     github: 'https://github.com',
     demo: 'https://github.com',
-    icons: []
+    icons: [ReactIcon]
   },
   {
     id: 4,
@@ -38,7 +40,7 @@ const data = [
     title: 'Luxury Casino',
     github: 'https://github.com',
     demo: 'https://github.com',
-    icons: []
+    icons: [HTML5Icon]
   }
 ];
 
@@ -60,12 +62,14 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo, icons }) => {
           return (
             <article className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt="portfolio item" />
+                <img className='icon__container' src={icons[0]} alt="icon" />
               </div>
+
               <h3 className='item__title'>{title}</h3>
               <div className="protfolio__item-cta">
                 <a href={github} className="btn">
