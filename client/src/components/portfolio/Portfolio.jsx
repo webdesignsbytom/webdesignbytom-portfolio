@@ -5,6 +5,7 @@ import Portfolio2 from '../../assets/images/portfolio2.jpg';
 import Portfolio3 from '../../assets/images/portfolio3.jpg';
 import Portfolio4 from '../../assets/images/portfolio4.jpg';
 import Portfolio5 from '../../assets/images/portfolio5.png';
+import { useNavigate } from 'react-router-dom';
 
 const data = [
   {
@@ -42,6 +43,17 @@ const data = [
 ];
 
 function Portfolio() {
+
+  const navigate = useNavigate()
+
+  const displayInfo = (event) => {
+    console.log('ji');
+
+    navigate('/example', {
+      replace: true,
+    });
+
+  }
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -62,7 +74,7 @@ function Portfolio() {
                 <a href={demo} className="btn btn-primary">
                   Live Demo
                 </a>
-                <a href='#' className="btn btn-primary">
+                <a onClick={displayInfo} className="btn btn-primary">
                   More Info
                 </a>
               </div>
