@@ -1,8 +1,8 @@
 import React from 'react';
 import './portfolio.css';
-import Portfolio1 from '../../assets/images/portfolio1.jpg';
+import Portfolio1 from '../../assets/images/tavyepoxyfull.png';
+import Portfolio3 from '../../assets/images/bioclickerfull.png';
 import Portfolio2 from '../../assets/images/portfolio2.jpg';
-import Portfolio3 from '../../assets/images/portfolio3.jpg';
 import Portfolio4 from '../../assets/images/portfolio4.jpg';
 import Portfolio5 from '../../assets/images/portfolio5.png';
 import ReactIcon from '../../assets/images/react.svg';
