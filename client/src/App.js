@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import WebComponents from './pages/web-components/WebComponents';
 import Home from './pages/home/Home';
-import ExamplePage from './components/example/ExamplePage';
+import ExamplePage from './pages/example/ExamplePage';
 
 function App() {
   return (
