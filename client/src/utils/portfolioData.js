@@ -4,6 +4,7 @@ import Portfolio3 from '../assets/portfolio3.jpg';
 import Portfolio4 from '../assets/portfolio4.jpg';
 import Portfolio5 from '../assets/portfolio5.png';
 
+// TODO: make this primary data source
 const data = [
     {
         id: 1,

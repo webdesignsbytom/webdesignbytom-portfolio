@@ -54,7 +54,8 @@ function Portfolio() {
     navigate('/example', {
       replace: true,
     });
-  };
+};
+
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
