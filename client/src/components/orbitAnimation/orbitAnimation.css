@@ -31,15 +31,17 @@
   border: none;
   position: absolute;
 }
-.satellite img {
-  width: 50px;
-  height: 50px;
+
+.satellite {
+  width: 30px;
+  height: 30px;
 }
+
 .satellite1 {
-  position: absolute;
-  z-index: 2;
   animation: animateSatellite1 10s linear infinite;
   transform: rotate(15deg);
+  position: absolute;
+  z-index: 2;
 }
 
 @keyframes animateSatellite1 {

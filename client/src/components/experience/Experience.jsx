@@ -58,6 +58,7 @@ function Experience() {
           </div>
         </div>
 
+        <OrbitAnimation />
 
         <div className='experience__backend'>
           <h3>Backend Development</h3>

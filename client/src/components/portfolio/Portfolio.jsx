@@ -15,8 +15,8 @@ const data = [
     id: 1,
     image: Portfolio1,
     title: 'TavyEpoxy Furniture Sales',
-    github: 'https://github.com',
-    demo: 'https://github.com',
+    github: 'https://github.com/webdesignbytom/tavy_epoxy',
+    demo: 'https://strong-tulumba-d852ca.netlify.app/',
     icons: [ReactIcon],
   },
   {

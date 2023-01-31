@@ -18,7 +18,6 @@ function Home() {
       <Nav />
       <About />
       <Portfolio />
-      <OrbitAnimation />
       <Experience />
       <Services />
       <Testimonials />
