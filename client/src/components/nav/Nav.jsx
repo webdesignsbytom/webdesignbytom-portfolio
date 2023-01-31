@@ -5,7 +5,7 @@ import { BiBook } from 'react-icons/bi'
 import { RiServiceLine, RiContactsLine } from 'react-icons/ri'
 import { IoMdCodeWorking } from 'react-icons/io'
 
-
+// TODO: Fix phone size nav movement
 
 function Nav() {
   const [activeNav, setActiveNav] = useState('#')

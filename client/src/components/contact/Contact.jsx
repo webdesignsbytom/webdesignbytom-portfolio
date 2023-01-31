@@ -16,8 +16,8 @@ function Contact() {
           <article className='contact__option'>
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>tom@gmail.com</h5>
-            <a href='mailto:tom@gmail.com' rel="noreferrer" target='_blank'>Send a message</a>
+            <h5>tom_brockington@yahoo.co.uk</h5>
+            <a href='mailto:tom_brockington@yahoo.co.uk' rel="noreferrer" target='_blank'>Send a message</a>
 
           </article>
 
@@ -39,7 +39,7 @@ function Contact() {
         </div>
 
         {/* end of contact options */}
-        
+
         <form action=''>
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email Address' required />

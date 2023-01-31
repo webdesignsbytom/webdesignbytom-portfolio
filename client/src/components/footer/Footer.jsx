@@ -22,14 +22,15 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
+        {/* TODO: ADD LINKS */}
         <a href='https://facebook.com'><FaFacebookF/></a>
         <a href='https://linkedin.com'><BsLinkedin/></a>
-        <a href='https://github.com'><FaGithub/></a>
+        <a href='https://github.com/webdesignbytom'><FaGithub/></a>
       </div>
 
       <div className="footer__copyright">
         <small>
-          webdesignbytom design and code, All rights reserved. 
+          Build by webdesignbytom. All rights reserved ©. 
         </small>
       </div>
     </footer>
