@@ -49,7 +49,7 @@ function Portfolio() {
   const navigate = useNavigate();
 
   const displayInfo = (item) => {
-    console.log('ji');
+    console.log('ji', item);
 
     navigate('/example', {
       state: item
