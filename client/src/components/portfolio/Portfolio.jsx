@@ -8,9 +8,7 @@ console.log('products', portfolioData);
   const navigate = useNavigate();
 
   const displayInfo = (item) => {
-    console.log('ji', item);
-
-    navigate('/example', {
+    navigate('/portfolioItem', {
       state: item
     });
 };
