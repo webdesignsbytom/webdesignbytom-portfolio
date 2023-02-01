@@ -48,11 +48,11 @@ const data = [
 function Portfolio() {
   const navigate = useNavigate();
 
-  const displayInfo = (event) => {
+  const displayInfo = (item) => {
     console.log('ji');
 
     navigate('/example', {
-      replace: true,
+      state: item
     });
 };
 
@@ -62,14 +62,14 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
-        {data.map(({ id, image, title, github, demo, icons }) => {
+        {data.map((item, index) => {
           return (
-            <article className='portfolio__item'>
+            <article className='portfolio__item' key={index} >
               <div className='portfolio__item-image'>
-                <img src={image} alt='portfolio item' />
+                <img src={item.image} alt='portfolio item' />
 
                 <div className='icon__container'>
-                  {icons.map((icon, index) => {
+                  {item.icons.map((icon, index) => {
                     return (
                       <img className='icon' key={index} src={icon} alt='icon' />
                     );
@@ -77,15 +77,15 @@ function Portfolio() {
                 </div>
               </div>
 
-              <h3 className='item__title'>{title}</h3>
+              <h3 className='item__title'>{item.title}</h3>
               <div className='protfolio__item-cta'>
-                <a href={github} className='btn'>
+                <a href={item.github} className='btn'>
                   Github
                 </a>
-                <a href={demo} className='btn btn-primary'>
+                <a href={item.demo} className='btn btn-primary'>
                   Live Demo
                 </a>
-                <a onClick={displayInfo} className='btn btn-primary'>
+                <a onClick={() => displayInfo(item)} className='btn btn-primary'>
                   More Info
                 </a>
               </div>
