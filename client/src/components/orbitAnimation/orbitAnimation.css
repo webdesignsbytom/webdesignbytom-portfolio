@@ -1,6 +1,7 @@
 .orbit__container {
   width: 100%;
-  padding-top: 5rem;
+  display: grid;
+  z-index: -5;
 }
 
 .boundry__container {
@@ -8,12 +9,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
 }
 
 .circle {
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   background: rgb(192, 192, 192);
   background: linear-gradient(
@@ -31,42 +31,92 @@
   border: none;
   position: absolute;
 }
+
 .satellite img {
   width: 50px;
   height: 50px;
 }
+
+/* REACT ICON */
 .satellite1 {
   position: absolute;
   z-index: 2;
-  animation: animateSatellite1 10s linear infinite;
-  transform: rotate(15deg);
+  animation: animateSatellite1 5s linear infinite;
 }
 
 @keyframes animateSatellite1 {
   25% {
-    padding-left: 50rem;
+    padding-left: 30rem;
     z-index: 2;
   }
   26% {
     z-index: -1;
   }
   50% {
-    font-size: 0.1rem;
+    scale: 0.1;
   }
   75% {
-    padding-right: 60rem;
+    padding-right: 40rem;
   }
 }
 
+/* GIT HUB ICON */
 .satellite2 {
   position: absolute;
   z-index: 2;
-  font-size: 3.2rem;
-  animation: animateSatellite2 8s linear infinite;
+  animation: animateSatellite2 7s linear infinite;
   transform: rotate(45deg);
 }
 
 @keyframes animateSatellite2 {
+  25% {
+    padding-left: 30rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    scale: 0.1;
+  }
+  75% {
+    padding-right: 30rem;
+  }
+}
+
+/* HTML5 */
+.satellite3 {
+  position: absolute;
+  z-index: 2;
+  animation: animateSatellite3 6s linear infinite;
+  transform: rotate(76deg);
+}
+
+@keyframes animateSatellite3 {
+  25% {
+    padding-left: 35rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    scale: 0.1;
+  }
+  75% {
+    padding-right: 30rem;
+  }
+}
+
+/* NODE JS */
+.satellite4 {
+  position: absolute;
+  z-index: 2;
+  animation: animateSatellite4 7s linear infinite;
+  transform: rotate(-5deg);
+}
+
+@keyframes animateSatellite4 {
   25% {
     padding-left: 40rem;
     z-index: 2;
@@ -75,57 +125,83 @@
     z-index: -1;
   }
   50% {
-    font-size: 0.1rem;
+    scale: 0.1;
   }
   75% {
-    padding-right: 60rem;
+    padding-right: 30rem;
   }
 }
 
-.satellite3 {
+/* EXPRESS JS */
+.satellite5 {
   position: absolute;
   z-index: 2;
-  font-size: 3.2rem;
-  animation: animateSatellite3 6s linear infinite;
-  transform: rotate(76deg);
+  animation: animateSatellite5 5s linear infinite;
+  transform: rotate(-75deg);
 }
 
-@keyframes animateSatellite3 {
+@keyframes animateSatellite5 {
   25% {
-    padding-left: 45rem;
+    padding-left: 40rem;
     z-index: 2;
   }
   26% {
     z-index: -1;
   }
   50% {
-    font-size: 0.1rem;
+    scale: .1;
   }
   75% {
     padding-right: 40rem;
   }
 }
 
-.satellite4 {
+.satellite6 {
   position: absolute;
   z-index: 2;
-  font-size: 3.2rem;
-  animation: animateSatellite4 12s linear infinite;
-  transform: rotate(-5deg);
+  animation: animateSatellite6 4s linear infinite;
+  transform: rotate(-98deg);
+  filter: brightness(2);
 }
 
-@keyframes animateSatellite4 {
+@keyframes animateSatellite6 {
   25% {
-    padding-left: 70rem;
+    padding-left: 30rem;
     z-index: 2;
   }
   26% {
     z-index: -1;
   }
   50% {
-    font-size: 0.1rem;
+    scale: 0.1;
+    filter: brightness(0.3);
+
   }
   75% {
-    padding-right: 60rem;
+    padding-right: 30rem;
+  }
+}
+
+/* PRISMA */
+.satellite7 {
+  position: absolute;
+  z-index: 2;
+  animation: animateSatellite7 5s linear infinite;
+  transform: rotate(-22deg);
+}
+
+@keyframes animateSatellite7 {
+  25% {
+    padding-left: 30rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    scale: 0.1;
+  }
+  75% {
+    padding-right: 30rem;
   }
 }
