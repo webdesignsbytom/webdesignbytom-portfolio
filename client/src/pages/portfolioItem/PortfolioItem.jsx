@@ -33,7 +33,7 @@ function PortfolioItem() {
   }, []);
 
   const returnHome = () => {
-    navigate('/', {
+    navigate('../', {
       replace: true,
     });
   };
@@ -88,7 +88,6 @@ function PortfolioItem() {
           </div>
 
           <div className='right__container'>
-
             <div className='items__icons'>
               <ul className='icons__ul'>
                 {portfolioItem.icons.map((icon, index) => {
@@ -101,8 +100,42 @@ function PortfolioItem() {
               </ul>
             </div>
 
-            <div className="responsive__display__container">
-              
+            <div className='responsive__display__container'>
+              <div class='phone'>
+                <div class='outer__phone'>
+                  <div class='phone__screen'></div>
+                  <div class='menu__circle__container'>
+                    <div class='menu__circle'></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class='laptop'>
+                <div class='laptop__screen__container'>
+                  <div class='laptop__screen'>
+                    <div class='inner__border'></div>
+                  </div>
+                </div>
+                <div class='laptop__keyboard'>
+                  <div class='plug__container'>
+                    <div class='plug__jack'></div>
+                    <div class='plug__jack'></div>
+                  </div>
+                  <div class='drive__container'></div>
+                </div>
+              </div>
+
+              <div class='monitor__container'>
+                <div class='screen__container'>
+                  <div class='screen'></div>
+                  <div class='buttons__row'>
+                    <div class='buttonX'></div>
+                    <div class='buttonX'></div>
+                    <div class='buttonX'></div>
+                    <div class='buttonX'></div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className='responsive__images__container'>
