@@ -41,22 +41,66 @@
 .left__container {
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
 }
 
-.items__titles {
+.port__items__title {
   border: 2px solid black;
-  padding-left: 1rem;
-  margin-bottom: 1rem;
+  padding: 0 1rem;
+  width: fit-content;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+  border-radius: 4px;
+}
+
+.port__items__title h1 {
+  font-weight: 900;
 }
 
 .item__desc {
+  line-height: 1.3;
   padding: 1rem;
   -webkit-box-shadow: 10px 10px 45px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 45px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 45px -6px rgba(0, 0, 0, 0.75);
 }
 
-/* LEFT DATA CONTAINER */
+
+.specs__containers {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+}
+
+/* SKILLS */
+.skillsList__container {
+  border: 2px solid blue;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.skills__title {
+  background-color: pink;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.listOSkills {
+  background-color: orange;
+}
+
+.featuredComponent__container {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+
+}
+
+/* RIGHT DATA CONTAINER */
 
 .right__container {
   padding: 0;

@@ -7,7 +7,7 @@ function PortfolioItem() {
   const location = useLocation();
 
   const [portfolioItem, setPortfolioItem] = useState({});
-
+console.log('item', portfolioItem);
   // Set the item to be displayed
   useEffect(() => {
     if (location.state) {
@@ -37,27 +37,43 @@ function PortfolioItem() {
           </div>
         </nav>
         {/* MAIN PAGE */}
-        <main className='port__item__page'>
-          <section className='left__container'>
-            <div className='items__title'>
-              <h1>Portfolio Item {portfolioItem.id}</h1>
+        <div className='port__item__page'>
+          <div className='left__container'>
+            <div className='port__items__title'>
+              <h1>{portfolioItem.title}</h1>
             </div>
+
             <article className='item__desc'>{portfolioItem.desc}</article>
-          </section>
-          <section className='right__container'>
-            <div className="items__icons">
+
+            <div className='specs__containers'>
+              <div className='skillsList__container'>
+                <div className='skills__title'>
+                  <h3>Skills</h3>
+                </div>
+
+                {/* <div className='listOSkills'>
+                  {portfolioItem.skills[1]}
+                </div> */}
+              </div>
+
+              <div className='featuredComponent__container'></div>
+            </div>
+          </div>
+
+          <div className='right__container'>
+            <div className='items__icons'>
               {/* {portfolioItem.iconsmap((icon, index) => {
                 return (
                   <img className='icon' key={index} src={icon} alt='icon' />
                 );
               })} */}
             </div>
-            <div className="responsive__images__container">
+            <div className='responsive__images__container'>
               <h6>PHONE - TABLET - LAPTOP - MONITOR</h6>
               <h3>Fully Responsive Design</h3>
             </div>
-          </section>
-        </main>
+          </div>
+        </div>
       </div>
     </>
   );
