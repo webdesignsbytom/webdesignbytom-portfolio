@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { portfolioData } from '../../utils/portfolioData'
 import './portfolioItem.css';
 
 function PortfolioItem() {
@@ -19,8 +20,6 @@ function PortfolioItem() {
     featuredComponent: '',
   });
 
-  console.log('item', portfolioItem);
-
   // Set the item to be displayed
   useEffect(() => {
     if (location.state) {
@@ -38,6 +37,17 @@ function PortfolioItem() {
     });
   };
 
+  const nextPage = () => {
+    console.log('portfolio', portfolioData, portfolioItem);
+    const currentId = portfolioItem.id
+    const newPageItem = portfolioData[currentId]
+    if (currentId === portfolioData.length) {
+      setPortfolioItem(portfolioData[0])
+    } else {
+      setPortfolioItem(newPageItem)
+    }
+  }
+
   return (
     <>
       <div className='item__page'>
@@ -51,7 +61,7 @@ function PortfolioItem() {
               <button>Prev</button>
             </div>
             <div className='next'>
-              <button>Next</button>
+              <button onClick={nextPage}>Next</button>
             </div>
           </div>
         </nav>
