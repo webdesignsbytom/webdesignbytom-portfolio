@@ -40,7 +40,7 @@ export const portfolioData = [
     demo: 'https://darling-marigold-5cf601.netlify.app/',
     icons: [ReactIcon],
     images: [Portfolio1, Portfolio1, Portfolio1],
-    skills: [],
+    skills: ["one"],
     desc: 'Bio-Clikcer a react based idle clicker game. Based on hugely populat phone and browser idle clicker games. This involves a huge amount of player states and is a great example ove the abilities of using state in react. Furthermore rending items, achievements and buildings like they were items in an online store. The player data is all collected and saved to localstorage and server databases for using various devices. Every element on the page is subject to rerendering and has been smoothly layed out to prevent overloading issues',
     featuredComponent: 'Game'
   },
@@ -52,7 +52,7 @@ export const portfolioData = [
     demo: 'https://github.com',
     icons: [HTML5Icon],
     images: [Portfolio1, Portfolio1, Portfolio1],
-    skills: [],
+    skills: ["one"],
     desc: 'Luxury Casino is a vanilla javascript project i have been building to keep my skills sharp on the basic sides of code without frontend libraries. It is also being specially built to accomidate a circuit board controlled poker chip that will act as you bet button for online gaming. It features account requirements and deposits for banking and gaming. Currently only plays poker but will be adpted to suit all card games. You can choose seats around a table and play texas holdem against up to 5 other players. Dealer position moves around the board. Stats are recorded for player development',
     featuredComponent: 'Card Trick'
   },

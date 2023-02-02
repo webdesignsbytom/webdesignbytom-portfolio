@@ -6,8 +6,21 @@ function PortfolioItem() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const [portfolioItem, setPortfolioItem] = useState({});
-console.log('item', portfolioItem);
+  const [portfolioItem, setPortfolioItem] = useState({
+    id: 1,
+    image: '',
+    title: '',
+    github: '',
+    demo: '',
+    icons: ['', ''],
+    images: ['', '', ''],
+    skills: ['', '', ''],
+    desc: '',
+    featuredComponent: '',
+  });
+
+  console.log('item', portfolioItem);
+
   // Set the item to be displayed
   useEffect(() => {
     if (location.state) {
@@ -19,13 +32,19 @@ console.log('item', portfolioItem);
     }
   }, []);
 
+  const returnHome = () => {
+    navigate('/', {
+      replace: true,
+    });
+  };
+
   return (
     <>
       <div className='item__page'>
         {/* NAV */}
         <nav className='portfolio__nav'>
           <div className='returnBtn__container'>
-            <button>Return</button>
+            <button onClick={returnHome}>Return</button>
           </div>
           <div className='portfolioItemBtns__container'>
             <div className='previous'>
@@ -51,23 +70,41 @@ console.log('item', portfolioItem);
                   <h3>Skills</h3>
                 </div>
 
-                {/* <div className='listOSkills'>
-                  {portfolioItem.skills[1]}
-                </div> */}
+                <div className='listOSkills'>
+                  <ul>
+                    {portfolioItem.skills.map((skill, index) => {
+                      return <li key={index}>{skill}</li>;
+                    })}
+                  </ul>
+                </div>
               </div>
 
-              <div className='featuredComponent__container'></div>
+              <div className='featuredComponent__container'>
+                <div className='skills__title'>
+                  <h3>Feature Component</h3>
+                </div>
+              </div>
             </div>
           </div>
 
           <div className='right__container'>
+
             <div className='items__icons'>
-              {/* {portfolioItem.iconsmap((icon, index) => {
-                return (
-                  <img className='icon' key={index} src={icon} alt='icon' />
-                );
-              })} */}
+              <ul className='icons__ul'>
+                {portfolioItem.icons.map((icon, index) => {
+                  return (
+                    <li className='icon__item__list'>
+                      <img src={icon} alt='icon' />
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
+
+            <div className="responsive__display__container">
+              
+            </div>
+
             <div className='responsive__images__container'>
               <h6>PHONE - TABLET - LAPTOP - MONITOR</h6>
               <h3>Fully Responsive Design</h3>
