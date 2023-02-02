@@ -24,7 +24,7 @@ console.log('products', portfolioData);
           return (
             <article className='portfolio__item' key={index} >
               <div className='portfolio__item-image'>
-                <img src={item.image} alt='portfolio item' />
+                <img src={item.image} onClick={() => displayInfo(item)} alt='portfolio item' />
 
                 <div className='icon__container'>
                   {item.icons.map((icon, index) => {
