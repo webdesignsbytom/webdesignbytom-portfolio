@@ -39,13 +39,13 @@ function PortfolioItem() {
         {/* MAIN PAGE */}
         <main className='port__item__page'>
           <section className='left__container'>
-            <div className='item__title'>
+            <div className='items__title'>
               <h1>Portfolio Item {portfolioItem.id}</h1>
             </div>
             <article className='item__desc'>{portfolioItem.desc}</article>
           </section>
           <section className='right__container'>
-            <div className="item__icons">
+            <div className="items__icons">
               {/* {portfolioItem.iconsmap((icon, index) => {
                 return (
                   <img className='icon' key={index} src={icon} alt='icon' />

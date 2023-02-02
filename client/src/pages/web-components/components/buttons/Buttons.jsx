@@ -97,6 +97,12 @@ function Buttons() {
           <button className="btns btn-20">CLICK</button>
           <h4 className="title">Colour, size, font</h4>
         </div>
+        <div className="btn__container btn__container21">
+          <button className="btns btn-21">
+            <span className='btn__text'>Save Changes</span>
+          </button>
+          <h4 className="title">Colour, size, font</h4>
+        </div>
       </section>
     </div>
   );
