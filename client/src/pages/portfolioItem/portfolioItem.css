@@ -317,3 +317,29 @@
   display: grid;
   padding: 1rem;
 }
+
+@media screen and (max-width: 1275px) {
+  .laptop {
+    display: grid;
+    grid-template-rows: 10fr 1fr;
+    gap: 3px;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    z-index: 2;
+  }
+
+  .monitor__container {
+    display: grid;
+    grid-template-rows: auto auto;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+  }
+
+  .listOSkills ul li {
+    font-size: 1rem;
+  }
+}

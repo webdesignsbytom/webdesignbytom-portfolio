@@ -15,7 +15,7 @@ export const portfolioData = [
   {
     id: 1,
     image: TavyEpoxy,
-    title: 'TavyEpoxy Furniture Sales',
+    title: 'TavyEpoxy Furniture',
     github: 'https://github.com/webdesignbytom/tavy_epoxy',
     demo: 'https://strong-tulumba-d852ca.netlify.app/',
     icons: [ReactIcon, CSS3icon, Expressjs, Prisma],
@@ -27,7 +27,7 @@ export const portfolioData = [
   {
     id: 2,
     image: Portfolio2,
-    title: 'Matched Betting information and training game',
+    title: 'Matched Betting Training',
     github: 'https://github.com/webdesignbytom/matched-betting',
     demo: 'https://lively-brioche-882d33.netlify.app/',
     icons: [ReactIcon, TailwindIcon, Expressjs, Prisma],
