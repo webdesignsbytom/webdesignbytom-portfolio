@@ -14,12 +14,12 @@ function Header() {
         <h5 className="text-light">Available to hire for private or full-time dev work</h5>
         <CTA />
         <HeaderSocials />
-        
+{/*         
         <div className="me">
           <img src={me} alt='myself'/>
-        </div>
+        </div> */}
 
-        <a href='#contact' className='scroll__down'>Scroll Down</a>
+        <a href='#contact' className='scroll__down'>Contact Me</a>
       </div>
     </header>
     )

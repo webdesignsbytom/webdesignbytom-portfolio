@@ -24,9 +24,9 @@ function About() {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>Junior Developer 1 Year</small>
+              <small>Junior Developer</small>
               <br />
-              <small>Electrical Engineer 5 Years</small>
+              <small>Electrical Engineer</small>
               <br />
               <small>Renewable energy installer</small>
             </article>
@@ -48,7 +48,7 @@ function About() {
               <h5>Projects</h5>
               <small>My Personal Projects</small>
               <br />
-              <small>Combining web and ciruit design</small>
+              <small>Web and ciruit design</small>
               <br />
               <small>See what im building</small>
             </article>
