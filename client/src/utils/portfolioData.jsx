@@ -37,7 +37,7 @@ export const portfolioData = [
     skills: ["Algorithms", "Responsive Tutorial", "Forum/media functions", "User Authentication", "Personal Profiles"],
     desc: 'Matched Betting Training is a app mainly designed to teach a player how to make a series of bets guaranteed to make a profit using our system. It is supported by a fleshed out website of user/member systems and forums for posting tips and tricks creating a community of betters. Most site of this type feature a betting calculator and basic instructions. This site goes one further and has built dummy bookie websites to be used in our "Bet Simulator" which takes you step by step through the processes of making a winning bet.' ,
     featuredComponent: 'Bet Simulator',
-    featuredDisplay: <Calculator />
+    featuredDisplay: ""
   },
   {
     id: 3,

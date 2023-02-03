@@ -18,6 +18,7 @@ function PortfolioItem() {
     skills: ['', '', ''],
     desc: '',
     featuredComponent: '',
+    featuredDisplay: ""
   });
 
   // Set the item to be displayed
