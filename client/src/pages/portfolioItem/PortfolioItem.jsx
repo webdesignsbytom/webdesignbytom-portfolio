@@ -158,7 +158,7 @@ function PortfolioItem() {
                 <h3>Fully Responsive Design</h3>
               </div>
               <div className='link__btn'>
-                <a className='btn' href={portfolioItem.liveSite}>
+                <a className='btn__alt' href={portfolioItem.liveSite}>
                   LIVE SITE
                 </a>
               </div>

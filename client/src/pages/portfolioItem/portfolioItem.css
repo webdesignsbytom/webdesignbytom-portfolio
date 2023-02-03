@@ -20,10 +20,18 @@
 
 /*  all nav buttons */
 .portfolio__nav button {
-  font-size: 2rem;
   padding: 0.6rem;
-  border: 2px;
   cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: var(--color-primary);
+  font-size: 1.6rem;
+}
+
+.portfolio__nav button:hover {
+  color: var(--color-white);
+  background: transparent;
+  border: 1px solid var(--color-primary);
 }
 
 /* Main Page */
@@ -112,7 +120,8 @@
   grid-template-rows: auto 1fr;
 }
 
-.featured__item {}
+.featured__item {
+}
 
 /* RIGHT DATA CONTAINER */
 
@@ -143,7 +152,7 @@
   border-radius: 25px;
   display: grid;
   grid-auto-flow: column;
-  border: 4px solid var(--color-primary);
+  border: 4px solid var(--color-bg-variant);
 }
 
 .responsive__display__container {
