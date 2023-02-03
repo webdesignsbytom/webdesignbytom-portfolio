@@ -1,7 +1,7 @@
 .about__container {
     display: grid;
     grid-template-columns: 35% 65%;
-    gap: 15%;
+    gap: 10%;
 }
 
 .about__me {
@@ -64,6 +64,9 @@
     color: var(--color-light);
 }
 
+.about__content  {
+    padding-right: 3rem;
+}
 .about__content p {
     margin: 2rem 0 2.6rem;
 }
