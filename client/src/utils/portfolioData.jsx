@@ -10,6 +10,7 @@ import CSS3icon from '../assets/images/css3.svg';
 import Expressjs from '../assets/images/expressjs.svg';
 import Nodejs from '../assets/images/nodejs-icon.svg';
 import Prisma from '../assets/images/file_type_light_prisma.svg';
+import Calculator from '../featureComponents/calculator/Calculator'
 
 export const portfolioData = [
   {
@@ -22,7 +23,8 @@ export const portfolioData = [
     images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
     skills: ["Responsive Gallery", "3D Design Tool", "Image Slider on loop", "User Authentication", "Advanced CSS colour manipulating"],
     desc: 'TavyEpoxy, or Tav-E-poxy is a business i run selling my spare artwork as tables. The website was created to display a gallery of possiblities and attract interest in similar designs from customers. The key to getting customers is to make it easy for them to compare the designs in my gallery and the materails available to make orders based on what they find attractive. To address this i have made contact forms with various basic options for quote requesting. Along with a design tool where customers can create a 3D render of the furniture dimensions and artistic patterns desired.',
-    featuredComponent: '3D Design Tool'
+    featuredComponent: '3D Design Tool',
+    featuredDisplay: "Calculator"
   },
   {
     id: 2,
@@ -34,7 +36,8 @@ export const portfolioData = [
     images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
     skills: ["Algorithms", "Responsive Tutorial", "Forum/media functions", "User Authentication", "Personal Profiles"],
     desc: 'Matched Betting Training is a app mainly designed to teach a player how to make a series of bets guaranteed to make a profit using our system. It is supported by a fleshed out website of user/member systems and forums for posting tips and tricks creating a community of betters. Most site of this type feature a betting calculator and basic instructions. This site goes one further and has built dummy bookie websites to be used in our "Bet Simulator" which takes you step by step through the processes of making a winning bet.' ,
-    featuredComponent: 'Bet Simulator'
+    featuredComponent: 'Bet Simulator',
+    featuredDisplay: <Calculator />
   },
   {
     id: 3,

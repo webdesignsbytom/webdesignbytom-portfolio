@@ -47,7 +47,6 @@
 }
 
 .port__items__title {
-  border: 2px solid black;
   padding: 0 1rem;
   width: fit-content;
   margin-bottom: 1rem;
@@ -109,7 +108,11 @@
   border: 2px solid var(--color-primary);
   border-radius: 0.5rem;
   background-color: var(--color-primary);
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
+
+.featured__item {}
 
 /* RIGHT DATA CONTAINER */
 

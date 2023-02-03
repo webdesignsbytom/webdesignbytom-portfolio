@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { portfolioData } from '../../utils/portfolioData'
+import { portfolioData } from '../../utils/portfolioData';
 import './portfolioItem.css';
 
 function PortfolioItem() {
@@ -39,14 +39,14 @@ function PortfolioItem() {
 
   const nextPage = () => {
     console.log('portfolio', portfolioData, portfolioItem);
-    const currentId = portfolioItem.id
-    const newPageItem = portfolioData[currentId]
+    const currentId = portfolioItem.id;
+    const newPageItem = portfolioData[currentId];
     if (currentId === portfolioData.length) {
-      setPortfolioItem(portfolioData[0])
+      setPortfolioItem(portfolioData[0]);
     } else {
-      setPortfolioItem(newPageItem)
+      setPortfolioItem(newPageItem);
     }
-  }
+  };
 
   return (
     <>
@@ -92,6 +92,9 @@ function PortfolioItem() {
               <div className='featuredComponent__container'>
                 <div className='skills__title'>
                   <h3>Feature Component</h3>
+                </div>
+                <div className='featured__item'>
+                  {portfolioItem.featuredDisplay}
                 </div>
               </div>
             </div>
