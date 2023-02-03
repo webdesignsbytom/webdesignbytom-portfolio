@@ -151,6 +151,16 @@
   position: relative;
 }
 
+.responsive__images__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.link__btn {
+  display: grid;
+  justify-content: end;
+}
+
 /* ITEM */
 /* PHONE */
 

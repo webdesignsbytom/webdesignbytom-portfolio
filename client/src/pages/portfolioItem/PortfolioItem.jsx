@@ -18,7 +18,7 @@ function PortfolioItem() {
     skills: ['', '', ''],
     desc: '',
     featuredComponent: '',
-    featuredDisplay: ""
+    featuredDisplay: '',
   });
 
   // Set the item to be displayed
@@ -92,7 +92,7 @@ function PortfolioItem() {
 
               <div className='featuredComponent__container'>
                 <div className='skills__title'>
-                  <h3>Feature Component</h3>
+                  <h3>Featured Component</h3>
                 </div>
                 <div className='featured__item'>
                   {portfolioItem.featuredDisplay}
@@ -153,8 +153,15 @@ function PortfolioItem() {
             </div>
 
             <div className='responsive__images__container'>
-              <h6>PHONE - TABLET - LAPTOP - MONITOR</h6>
-              <h3>Fully Responsive Design</h3>
+              <div className='resp__titles'>
+                <h6>PHONE - TABLET - LAPTOP - MONITOR</h6>
+                <h3>Fully Responsive Design</h3>
+              </div>
+              <div className='link__btn'>
+                <a className='btn' href={portfolioItem.liveSite}>
+                  LIVE SITE
+                </a>
+              </div>
             </div>
           </div>
         </div>
