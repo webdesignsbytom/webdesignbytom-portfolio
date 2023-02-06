@@ -51,7 +51,7 @@
   margin: 0;
   padding-top: 1rem;
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: auto auto auto 1fr;
 }
 
 .port__items__title {
@@ -64,6 +64,11 @@
 
 .port__items__title h1 {
   font-weight: 900;
+}
+
+.headlines {
+  font-weight: 700;
+  padding-left: 1rem;
 }
 
 .item__desc {

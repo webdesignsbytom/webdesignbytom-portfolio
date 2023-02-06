@@ -17,6 +17,7 @@ function PortfolioItem() {
     icons: ['', ''],
     images: ['', '', ''],
     skills: ['', '', ''],
+    headline: '',
     desc: '',
     featuredComponent: '',
     featuredDisplay: '',
@@ -24,6 +25,7 @@ function PortfolioItem() {
 
   // Set the item to be displayed
   useEffect(() => {
+    console.log('location: ', location);
     if (location.state) {
       setPortfolioItem(location.state);
     } else {
@@ -35,7 +37,6 @@ function PortfolioItem() {
 
   const returnHome = () => {
     navigate('../', {
-      replace: true,
     });
   };
 
@@ -84,6 +85,8 @@ function PortfolioItem() {
               <h1>{portfolioItem.title}</h1>
             </div>
 
+            <div className="headlines">{portfolioItem.headline}</div>
+            
             <article className='item__desc'>{portfolioItem.desc}</article>
 
             <div className='specs__containers'>
@@ -169,7 +172,7 @@ function PortfolioItem() {
                 <h3>Fully Responsive Design</h3>
               </div>
               <div className='link__btn'>
-                <a className='btn__alt' href={portfolioItem.liveSite}>
+                <a target='_blank' className='btn__alt' href={portfolioItem.liveSite}>
                   LIVE SITE
                 </a>
               </div>

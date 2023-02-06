@@ -1,0 +1,12 @@
+.error__page {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn__container {
+    justify-content: center;
+    padding-top: 1rem;
+}
