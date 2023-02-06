@@ -23,16 +23,24 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    display: grid;
+    justify-content: center;
 }
 
 
 .client__review {
     color: var(--color-light);
     font-weight: 300;
-    display: block;
+    display: grid;
     width: 80%;
     margin:0 0.8rem auto 0;
     text-align: center;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.client__link {
+    cursor: pointer;
 }
 
 

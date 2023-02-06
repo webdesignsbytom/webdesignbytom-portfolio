@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { portfolioData } from '../../utils/portfolioData';
 import './portfolioItem.css';
@@ -39,9 +40,19 @@ function PortfolioItem() {
   };
 
   const nextPage = () => {
-    console.log('portfolio', portfolioData, portfolioItem);
     const currentId = portfolioItem.id;
     const newPageItem = portfolioData[currentId];
+
+    if (currentId === portfolioData.length) {
+      setPortfolioItem(portfolioData[0]);
+    } else {
+      setPortfolioItem(newPageItem);
+    }
+  };
+  const prevPage = () => {
+    const currentId = portfolioItem.id;
+    const newPageItem = portfolioData[currentId];
+
     if (currentId === portfolioData.length) {
       setPortfolioItem(portfolioData[0]);
     } else {
@@ -55,14 +66,14 @@ function PortfolioItem() {
         {/* NAV */}
         <nav className='portfolio__nav'>
           <div className='returnBtn__container'>
-            <button onClick={returnHome}>Return</button>
+            <Link className='btn' to='/' >Return</Link>
           </div>
           <div className='portfolioItemBtns__container'>
             <div className='previous'>
-              <button>Prev</button>
+              <Link className='btn' onClick={prevPage}>Prev</Link>
             </div>
             <div className='next'>
-              <button onClick={nextPage}>Next</button>
+              <Link className='btn' onClick={nextPage}>Next</Link>
             </div>
           </div>
         </nav>
@@ -106,7 +117,7 @@ function PortfolioItem() {
               <ul className='icons__ul'>
                 {portfolioItem.icons.map((icon, index) => {
                   return (
-                    <li className='icon__item__list'>
+                    <li key={index} className='icon__item__list'>
                       <img src={icon} alt='icon' />
                     </li>
                   );
@@ -115,38 +126,38 @@ function PortfolioItem() {
             </div>
 
             <div className='responsive__display__container'>
-              <div class='phone'>
-                <div class='outer__phone'>
-                  <div class='phone__screen'></div>
-                  <div class='menu__circle__container'>
-                    <div class='menu__circle'></div>
+              <div className='phone'>
+                <div className='outer__phone'>
+                  <div className='phone__screen'></div>
+                  <div className='menu__circle__container'>
+                    <div className='menu__circle'></div>
                   </div>
                 </div>
               </div>
 
-              <div class='laptop'>
-                <div class='laptop__screen__container'>
-                  <div class='laptop__screen'>
-                    <div class='inner__border'></div>
+              <div className='laptop'>
+                <div className='laptop__screen__container'>
+                  <div className='laptop__screen'>
+                    <div className='inner__border'></div>
                   </div>
                 </div>
-                <div class='laptop__keyboard'>
-                  <div class='plug__container'>
-                    <div class='plug__jack'></div>
-                    <div class='plug__jack'></div>
+                <div className='laptop__keyboard'>
+                  <div className='plug__container'>
+                    <div className='plug__jack'></div>
+                    <div className='plug__jack'></div>
                   </div>
-                  <div class='drive__container'></div>
+                  <div className='drive__container'></div>
                 </div>
               </div>
 
-              <div class='monitor__container'>
-                <div class='screen__container'>
-                  <div class='screen'></div>
-                  <div class='buttons__row'>
-                    <div class='buttonX'></div>
-                    <div class='buttonX'></div>
-                    <div class='buttonX'></div>
-                    <div class='buttonX'></div>
+              <div className='monitor__container'>
+                <div className='screen__container'>
+                  <div className='screen'></div>
+                  <div className='buttons__row'>
+                    <div className='buttonX'></div>
+                    <div className='buttonX'></div>
+                    <div className='buttonX'></div>
+                    <div className='buttonX'></div>
                   </div>
                 </div>
               </div>

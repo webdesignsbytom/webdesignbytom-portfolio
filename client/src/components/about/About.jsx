@@ -33,12 +33,12 @@ function About() {
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients and Service</h5>
-              <small>Multiple Private Hires</small>
+              <h5>Services</h5>
+              <small>Experienced Product Designer</small>
+              <br />
+              <small>MERN Stack Design</small>
               <br />
               <small>Advice and information</small>
-              <br />
-              <small>Experienced Product Designer</small>
             </article>
 
             <article
@@ -56,10 +56,10 @@ function About() {
           <p>
             After years of electrical engineering and renewable energy
             installation, i have started developing websites for you! I have
-            always worked in a design and engineering capacity. Completing jobs
+            always worked in a design and engineering capacity, I even built the desk i work from. <br /> Completing jobs
             that have logic puzzles or require solving problems has always made
             me happy. My personal projects combine circuits and web design for
-            developing products i hope to achieve success with.
+            developing products i hope to achieve success with. 
           </p>
           <p>I am also an artist, carpenter, master scuba diver, syrup maker and entrepreneur.</p>
           <div className='button__container'>
