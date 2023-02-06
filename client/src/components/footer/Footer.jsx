@@ -23,9 +23,9 @@ function Footer() {
 
       <div className="footer__socials">
         {/* TODO: ADD LINKS */}
-        <a href='https://facebook.com'><FaFacebookF/></a>
-        <a href='https://linkedin.com'><BsLinkedin/></a>
-        <a href='https://github.com/webdesignbytom'><FaGithub/></a>
+        <a target='_blank' rel='noreferrer' href='https://facebook.com'><FaFacebookF/></a>
+        <a target='_blank' rel='noreferrer' href='https://linkedin.com'><BsLinkedin/></a>
+        <a target='_blank' rel='noreferrer' href='https://github.com/webdesignbytom'><FaGithub/></a>
       </div>
 
       <div className="footer__copyright">

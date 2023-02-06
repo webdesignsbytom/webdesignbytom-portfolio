@@ -12,14 +12,14 @@ function Nav() {
 
   return (
     <nav className='main__nav'>
-        <a
-          href='#'
-          onClick={() => setActiveNav('#')}
-          className={activeNav === '#' ? 'active' : ''}
-        >
-          <AiOutlineHome /> 
-          <span className='tooltip__container'>Home</span>
-        </a>
+      <a
+        href='#'
+        onClick={() => setActiveNav('#')}
+        className={activeNav === '#' ? 'active' : ''}
+      >
+        <AiOutlineHome />
+        <span className='tooltip__container'>Home</span>
+      </a>
       <a
         href='#portfolio'
         onClick={() => setActiveNav('#portfolio')}
@@ -27,7 +27,6 @@ function Nav() {
       >
         <IoMdCodeWorking />
         <span className='tooltip__container'>Portfolio</span>
-
       </a>
       <a
         href='#about'
@@ -36,7 +35,6 @@ function Nav() {
       >
         <AiOutlineUser />
         <span className='tooltip__container'>About</span>
-
       </a>
       <a
         href='#experience'
@@ -45,7 +43,6 @@ function Nav() {
       >
         <BiBook />
         <span className='tooltip__container'>Experience</span>
-
       </a>
       <a
         href='#services'
@@ -54,7 +51,6 @@ function Nav() {
       >
         <RiServiceLine />
         <span className='tooltip__container'>Services</span>
-
       </a>
       <a
         href='#contact'
@@ -63,7 +59,6 @@ function Nav() {
       >
         <RiContactsLine />
         <span className='tooltip__container'>Contact</span>
-
       </a>
     </nav>
   );

@@ -1,5 +1,5 @@
 import wervings from '../assets/images/wervings.png';
-import avatar2 from '../assets/images/avatar2.jpg';
+import rvsLogo from '../assets/images/rvs_logo.jpg';
 import avatar3 from '../assets/images/avatar3.jpg';
 import avatar4 from '../assets/images/avatar4.jpg';
 
@@ -9,11 +9,11 @@ export const testimonyArray = [
       name: 'Wervings Syrups',
       review:
         'Our compoany website was entirely built and maintained by webdesignbytom. It includes all the sales features we could ever need and we can change anything we want quickly and easily.',
-        link: 'www.wervings.co.uk'
+        link: 'http://www.wervings.co.uk'
 
     },
     {
-      avatar: avatar2,
+      avatar: rvsLogo,
       name: 'Rapid Van Solutions',
       review:
         'As a non computer literate, Tom was an excellent and affordable person to develope my website for me. He was understanding of what i was looking for and brought it to life for me',

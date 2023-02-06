@@ -56,6 +56,6 @@ nav a:hover .tooltip__container {
     display: none;
   }
   .main__nav {
-    visibility: hidden;
+    display: none;
   }
 }

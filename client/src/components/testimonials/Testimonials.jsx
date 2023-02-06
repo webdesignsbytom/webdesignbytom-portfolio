@@ -38,7 +38,14 @@ function Testimonials() {
 
               <h5 className='client__name'>{name}</h5>
               <small className='client__review'>{review}</small>
-              <a className='client__link'>{link}</a>
+              <a
+                href={link}
+                target='_blank'
+                rel='noreferrer'
+                className='client__link'
+              >
+                {link}
+              </a>
             </SwiperSlide>
           );
         })}
