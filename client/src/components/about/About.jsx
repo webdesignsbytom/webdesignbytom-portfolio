@@ -66,7 +66,7 @@ function About() {
             <a href='#contact' className='btn btn-primary'>
               Lets talk!
             </a>
-            <a href='#portfolio' className='btn btn-primary'>
+            <a href='#portfolio' className='btn'>
               Show Me Some Skills!
             </a>
           </div>
