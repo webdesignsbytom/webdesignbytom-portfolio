@@ -36,8 +36,7 @@ function PortfolioItem() {
   }, []);
 
   const returnHome = () => {
-    navigate('../', {
-    });
+    navigate('../', {});
   };
 
   const nextPage = () => {
@@ -67,14 +66,20 @@ function PortfolioItem() {
         {/* NAV */}
         <nav className='portfolio__nav'>
           <div className='returnBtn__container'>
-            <Link className='btn' to='/' >Return</Link>
+            <Link className='btn' to='/'>
+              Return
+            </Link>
           </div>
           <div className='portfolioItemBtns__container'>
             <div className='previous'>
-              <Link className='btn' onClick={prevPage}>Prev</Link>
+              <Link className='btn' onClick={prevPage}>
+                Prev
+              </Link>
             </div>
             <div className='next'>
-              <Link className='btn' onClick={nextPage}>Next</Link>
+              <Link className='btn' onClick={nextPage}>
+                Next
+              </Link>
             </div>
           </div>
         </nav>
@@ -85,8 +90,10 @@ function PortfolioItem() {
               <h1>{portfolioItem.title}</h1>
             </div>
 
-            <div className="headlines">App Purpose: {portfolioItem.headline}</div>
-            
+            <div className='headlines'>
+              App Purpose: {portfolioItem.headline}
+            </div>
+
             <article className='item__desc'>{portfolioItem.desc}</article>
 
             <div className='specs__containers'>
@@ -116,6 +123,12 @@ function PortfolioItem() {
           </div>
 
           <div className='right__container'>
+            <div className='css__brag'>
+              <h3>
+                {' '}
+                ALL <br /> MADE <br /> WITH <br /> CSS
+              </h3>{' '}
+            </div>
             <div className='items__icons'>
               <ul className='icons__ul'>
                 {portfolioItem.icons.map((icon, index) => {
@@ -172,7 +185,11 @@ function PortfolioItem() {
                 <h3>Fully Responsive Design</h3>
               </div>
               <div className='link__btn'>
-                <a target='_blank' className='btn__alt' href={portfolioItem.liveSite}>
+                <a
+                  target='_blank'
+                  className='btn__alt'
+                  href={portfolioItem.liveSite}
+                >
                   LIVE SITE
                 </a>
               </div>

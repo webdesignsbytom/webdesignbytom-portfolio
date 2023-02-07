@@ -138,6 +138,20 @@
   border-radius: 0.5rem;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  position: relative;
+}
+
+.css__brag {
+  position: absolute;
+  background-color: var(--color-primary);
+  top: 10px;
+  left: 10px;
+  display: grid;
+  text-align: center;
+  line-height: 1;
+  padding: 1rem;
+  border-radius: 50%;
+
 }
 
 .items__icons {
@@ -333,6 +347,7 @@
   border-radius: 50%;
   height: 10px;
   width: 10px;
+  background-color: var(--color-white);
 }
 
 /* responsive__images__container */
