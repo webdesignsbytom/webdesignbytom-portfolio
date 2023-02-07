@@ -85,14 +85,14 @@ function PortfolioItem() {
               <h1>{portfolioItem.title}</h1>
             </div>
 
-            <div className="headlines">{portfolioItem.headline}</div>
+            <div className="headlines">App Purpose: {portfolioItem.headline}</div>
             
             <article className='item__desc'>{portfolioItem.desc}</article>
 
             <div className='specs__containers'>
               <div className='skillsList__container'>
                 <div className='skills__title'>
-                  <h3>Skills</h3>
+                  <h3>Skills Used</h3>
                 </div>
 
                 <div className='listOSkills'>

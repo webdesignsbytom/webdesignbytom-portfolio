@@ -23,8 +23,8 @@ console.log('products', portfolioData);
         {portfolioData.map((item, index) => {
           return (
             <article className='portfolio__item' key={index} >
-              <div className='portfolio__item-image'>
-                <img src={item.image} onClick={() => displayInfo(item)} alt='portfolio item' />
+              <div className='portfolioImg__container'>
+                <img className='portfolio__displayImg' src={item.image} onClick={() => displayInfo(item)} alt='portfolio item' />
 
                 <div className='icon__container'>
                   {item.icons.map((icon, index) => {

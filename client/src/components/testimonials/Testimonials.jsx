@@ -29,7 +29,7 @@ function Testimonials() {
         onSwiper={(swiper) => console.log(swiper)}
         onClick={() => swiper.slideNext()}
       >
-        {testimonyArray.map(({ avatar, name, review, link }, index) => {
+        {testimonyArray.map(({ avatar, name, review, link, linkDisplay }, index) => {
           return (
             <SwiperSlide key={index} className='testimonial'>
               <div className='client__avatar'>
@@ -44,8 +44,9 @@ function Testimonials() {
                 rel='noreferrer'
                 className='client__link'
               >
-                {link}
+                {linkDisplay}
               </a>
+
             </SwiperSlide>
           );
         })}

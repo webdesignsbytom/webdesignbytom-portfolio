@@ -17,13 +17,17 @@
   background: transparent;
 }
 
-.portfolio__item-image {
+.portfolioImg__container {
   border-radius: 1.5rem;
   overflow: hidden;
   position: relative;
   z-index: 1;
   object-fit: cover;
   cursor: pointer;
+}
+
+.portfolio__displayImg {
+  height: 350px;
 }
 
 .portfolio__item-image h3 {

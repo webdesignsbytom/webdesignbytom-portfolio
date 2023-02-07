@@ -22,10 +22,10 @@ export const portfolioData = [
     icons: [ReactIcon, CSS3icon, Expressjs, Prisma],
     images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
     skills: ["Responsive Gallery", "3D Design Tool", "Image Slider on loop", "User Authentication", "Advanced CSS colour manipulating"],
-    headline: 'Purpose: A sales and gallery website for a local designer',
+    headline: 'A sales and gallery website for a local designer',
     desc: 'TavyEpoxy, or Tav-E-poxy is a business i run selling my spare artwork as tables. The website was created to display a gallery of possiblities and attract interest in similar designs from customers. The key to getting customers is to make it easy for them to compare the designs in my gallery and the materails available to make orders based on what they find attractive. To address this i have made contact forms with various basic options for quote requesting. Along with a design tool where customers can create a 3D render of the furniture dimensions and artistic patterns desired.',
     featuredComponent: '3D Design Tool',
-    featuredDisplay: "Calculator",
+    featuredDisplay: "",
     liveSite: "https://strong-tulumba-d852ca.netlify.app/"
   },
   {

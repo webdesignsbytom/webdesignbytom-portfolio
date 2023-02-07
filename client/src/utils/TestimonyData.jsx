@@ -9,7 +9,8 @@ export const testimonyArray = [
       name: 'Wervings Syrups',
       review:
         'Our compoany website was entirely built and maintained by webdesignbytom. It includes all the sales features we could ever need and we can change anything we want quickly and easily.',
-        link: 'http://www.wervings.co.uk'
+        link: 'http://www.wervings.co.uk',
+        linkDisplay: 'www.wervings.co.uk'
 
     },
     {
@@ -17,7 +18,8 @@ export const testimonyArray = [
       name: 'Rapid Van Solutions',
       review:
         'As a non computer literate, Tom was an excellent and affordable person to develope my website for me. He was understanding of what i was looking for and brought it to life for me',
-        link: 'www.rapidvansolutions.com'
+        link: 'http://www.rapidvansolutions.com',
+        linkDisplay: 'www.rapidvansolutions.com'
     },
     {
       avatar: avatar3,
