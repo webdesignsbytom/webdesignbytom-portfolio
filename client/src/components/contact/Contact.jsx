@@ -16,15 +16,15 @@ function Contact() {
           <article className='contact__option'>
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>tom_brockington@yahoo.co.uk</h5>
-            <a href='mailto:tom_brockington@yahoo.co.uk' rel="noreferrer" target='_blank'>Send a message</a>
+            <h5>tom@webdesignsbytom.com</h5>
+            <a href='mailto:tom@webdesignsbytom.com' rel="noreferrer" target='_blank'>Send a message</a>
 
           </article>
 
           <article className='contact__option'>
             <FaFacebookMessenger className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>webdesignbytom</h5>
+            <h5>webdesignsbytom</h5>
             <a href='http:facebook-subdomain' rel="noreferrer" target='_blank'>Send a message</a>
 
           </article>
