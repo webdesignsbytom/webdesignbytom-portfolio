@@ -7,7 +7,7 @@ import Expressjs from '../assets/images/expressjs.svg';
 import Prisma from '../assets/images/file_type_light_prisma.svg';
 // Photos
 import TavyEpoxy from '../assets/images/tavyepoxyfull.png';
-import BioClicker from '../assets/images/bioclickerfull.png';
+import BioClicker from '../assets/images/bioclickerMonitor.png';
 import Myecoapp from '../assets/images/myecoapp.png';
 import LuxuryPoker from '../assets/images/luxury-poker.png';
 import MyecoappMonitor from '../assets/images/myecoappMonitor.png'
@@ -57,7 +57,7 @@ export const portfolioData = [
     github: 'https://github.com/webdesignbytom/react-idle-clicker',
     demo: 'https://rococo-kleicha-53fa88.netlify.app/',
     icons: [ReactIcon, Prisma, CSS3icon],
-    images: [BioCLickerPhone, TavyEpoxy, TavyEpoxy],
+    images: [BioCLickerPhone, BioClicker, BioClicker],
     skills: ["Autofilled Tweets", "150+ States Managed", "User Authentication", "Localstorage Backups", "Player Achievements Monitoring", "Purchasing Functions", "Variable Menus", 'Admin Panel with users data'],
     headline: 'Game design using state management and purchasing',
     desc: 'Bio-Clikcer a react based idle clicker game. Based on hugely populat phone and browser idle clicker games. This involves a huge amount of player states and is a great example ove the abilities of using state in react. Furthermore rending items, achievements and buildings like they were items in an online store. The player data is all collected and saved to localstorage and server databases for using various devices. Every element on the page is subject to rerendering and has been smoothly layed out to prevent overloading issues',
