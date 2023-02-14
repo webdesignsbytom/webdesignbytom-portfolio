@@ -60,6 +60,8 @@ function PortfolioItem() {
     }
   };
 
+  console.log('XXXX', portfolioItem)
+
   return (
     <>
       <div className='item__page'>
@@ -144,7 +146,9 @@ function PortfolioItem() {
             <div className='responsive__display__container'>
               <div className='phone'>
                 <div className='outer__phone'>
-                  <div className='phone__screen'></div>
+                  <div className='phone__screen'>
+                    <img src={portfolioItem.images[0]} alt="phone display" />
+                  </div>
                   <div className='menu__circle__container'>
                     <div className='menu__circle'></div>
                   </div>
@@ -154,7 +158,10 @@ function PortfolioItem() {
               <div className='laptop'>
                 <div className='laptop__screen__container'>
                   <div className='laptop__screen'>
-                    <div className='inner__border'></div>
+                    <div className='inner__border'>
+                    <img src={portfolioItem.images[1]} alt="laptop display" />
+
+                    </div>
                   </div>
                 </div>
                 <div className='laptop__keyboard'>
@@ -168,7 +175,10 @@ function PortfolioItem() {
 
               <div className='monitor__container'>
                 <div className='screen__container'>
-                  <div className='screen'></div>
+                  <div className='screen'>
+                  <img src={portfolioItem.images[2]} alt="phone display" />
+
+                  </div>
                   <div className='buttons__row'>
                     <div className='buttonX'></div>
                     <div className='buttonX'></div>

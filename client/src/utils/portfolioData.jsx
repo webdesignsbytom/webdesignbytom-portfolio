@@ -10,9 +10,11 @@ import TavyEpoxy from '../assets/images/tavyepoxyfull.png';
 import BioClicker from '../assets/images/bioclickerfull.png';
 import Myecoapp from '../assets/images/myecoapp.png';
 import LuxuryPoker from '../assets/images/luxury-poker.png';
-import BioCLickerPhone from '../assets/images/bioclickerPhone.jpg'
 import MyecoappMonitor from '../assets/images/myecoappMonitor.png'
 import Calculator from '../assets/images/calculator.png'
+// Photos - Phone
+import BioCLickerPhone from '../assets/images/bioclickerPhone.jpg'
+import TavyepoxyPhone from '../assets/images/tavyepoxyPhone.jpg'
 
 export const portfolioData = [
   {
@@ -22,7 +24,7 @@ export const portfolioData = [
     github: 'https://github.com/webdesignbytom/tavy_epoxy',
     demo: 'https://strong-tulumba-d852ca.netlify.app/',
     icons: [ReactIcon, CSS3icon, Expressjs, Prisma],
-    images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
+    images: [TavyepoxyPhone, TavyEpoxy, TavyEpoxy],
     skills: ["Responsive Gallery", "3D Design Tool", "Image Slider on loop", "User Authentication", "Advanced CSS colour manipulating"],
     headline: 'A sales and gallery website for a local designer',
     desc: 'TavyEpoxy, or Tav-E-poxy is a business i run selling my spare artwork as tables. The website was created to display a gallery of possiblities and attract interest in similar designs from customers. The key to getting customers is to make it easy for them to compare the designs in my gallery and the materails available to make orders based on what they find attractive. To address this i have made contact forms with various basic options for quote requesting. Along with a design tool where customers can create a 3D render of the furniture dimensions and artistic patterns desired.',
@@ -51,14 +53,14 @@ export const portfolioData = [
     image: BioClicker,
     title: 'Idle-Clicker game',
     github: 'https://github.com/webdesignbytom/react-idle-clicker',
-    demo: 'https://darling-marigold-5cf601.netlify.app/',
+    demo: 'https://rococo-kleicha-53fa88.netlify.app/',
     icons: [ReactIcon, Prisma, CSS3icon],
     images: [BioCLickerPhone, TavyEpoxy, TavyEpoxy],
     skills: ["Autofilled Tweets", "150+ States Managed", "User Authentication", "Localstorage Backups", "Player Achievements Monitoring", "Purchasing Functions", "Variable Menus", 'Admin Panel with users data'],
     headline: 'Game design using state management and purchasing',
     desc: 'Bio-Clikcer a react based idle clicker game. Based on hugely populat phone and browser idle clicker games. This involves a huge amount of player states and is a great example ove the abilities of using state in react. Furthermore rending items, achievements and buildings like they were items in an online store. The player data is all collected and saved to localstorage and server databases for using various devices. Every element on the page is subject to rerendering and has been smoothly layed out to prevent overloading issues',
     featuredComponent: 'Game',
-    liveSite: "https://darling-marigold-5cf601.netlify.app/"
+    liveSite: "https://rococo-kleicha-53fa88.netlify.app/"
 
   },
   {
