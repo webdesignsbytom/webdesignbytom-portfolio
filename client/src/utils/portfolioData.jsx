@@ -15,6 +15,8 @@ import Calculator from '../assets/images/calculator.png'
 // Photos - Phone
 import BioCLickerPhone from '../assets/images/bioclickerPhone.jpg'
 import TavyepoxyPhone from '../assets/images/tavyepoxyPhone.jpg'
+import MatchedbettingPhone from '../assets/images/matchedbettingPhone.jpg'
+
 
 export const portfolioData = [
   {
@@ -39,7 +41,7 @@ export const portfolioData = [
     github: 'https://github.com/webdesignbytom/matched-betting',
     demo: 'https://lively-brioche-882d33.netlify.app/',
     icons: [ReactIcon, TailwindIcon, Expressjs, Prisma],
-    images: [TavyEpoxy, Calculator, Calculator],
+    images: [MatchedbettingPhone, Calculator, Calculator],
     skills: ["Advanced Algorithms", "Interactive Tutorial", "Forum/media functions", "User Authentication", "Personal Profiles"],
     headline: 'Teaching matched betting with the aim of advert sponsorship',
     desc: 'Matched Betting Training is a app mainly designed to teach a player how to make a series of bets guaranteed to make a profit using our system. It is supported by a fleshed out website of user/member systems and forums for posting tips and tricks creating a community of betters. Most site of this type feature a betting calculator and basic instructions. This site goes one further and has built dummy bookie websites to be used in our "Bet Simulator" which takes you step by step through the processes of making a winning bet.' ,
