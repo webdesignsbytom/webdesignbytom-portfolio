@@ -65,8 +65,8 @@
 }
 
 .about__content  {
-    padding-right: 3rem;
 }
+
 .about__content p {
     margin: 2rem 0 2.6rem;
 }
@@ -106,12 +106,14 @@
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
     .about__content {
+        display: grid;
         text-align: center;
+        justify-content: center;
     }
 
     .about__content p {
