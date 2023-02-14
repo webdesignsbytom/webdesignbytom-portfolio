@@ -2,6 +2,8 @@
   display: grid;
   grid-template-rows: auto 1fr;
   height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 /* Nav */
@@ -20,7 +22,7 @@
 
 /*  all nav buttons */
 .portfolio__nav button {
-  padding:  0.6rem;
+  padding: 0.6rem;
   cursor: pointer;
   border-radius: 4px;
   text-transform: uppercase;
@@ -38,7 +40,6 @@
 .port__item__page {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
-  grid-template-rows: 1fr;
   color: black;
   background-color: white;
   padding: 4rem;
@@ -148,7 +149,6 @@
   line-height: 1;
   padding: 1rem;
   border-radius: 50%;
-
 }
 
 .items__icons {
@@ -382,5 +382,32 @@
     line-height: 1;
     font-size: 1.6rem;
     padding: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item__page {
+    display: grid;
+    grid-auto-flow: row;
+    width: 100vw;
+  }
+  .portfolio__nav {
+    width: 100vw;
+    display: flex;
+  }
+  .port__item__page {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 0.2rem;
+  }
+  .laptop {
+    position: relative;
+  }
+  .monitor__container {
+    position: relative;
+  }
+  .laptop {
+    position: relative;
   }
 }
