@@ -1,17 +1,18 @@
-import TavyEpoxy from '../assets/images/tavyepoxyfull.png';
-import Portfolio2 from '../assets/images/portfolio2.jpg';
-import BioClicker from '../assets/images/bioclickerfull.png';
-import Myecoapp from '../assets/images/myecoapp.png';
-import LuxuryPoker from '../assets/images/luxury-poker.png';
+// Icons
 import ReactIcon from '../assets/images/reactjs-icon.svg';
 import HTML5Icon from '../assets/images/html5.svg';
 import TailwindIcon from '../assets/images/tailwindcss-icon.svg';
 import CSS3icon from '../assets/images/css3.svg';
 import Expressjs from '../assets/images/expressjs.svg';
-import Nodejs from '../assets/images/nodejs-icon.svg';
 import Prisma from '../assets/images/file_type_light_prisma.svg';
-import Calculator from '../featureComponents/calculator/Calculator'
-
+// Photos
+import TavyEpoxy from '../assets/images/tavyepoxyfull.png';
+import BioClicker from '../assets/images/bioclickerfull.png';
+import Myecoapp from '../assets/images/myecoapp.png';
+import LuxuryPoker from '../assets/images/luxury-poker.png';
+import BioCLickerPhone from '../assets/images/bioclickerPhone.jpg'
+import MyecoappMonitor from '../assets/images/myecoappMonitor.png'
+import Calculator from '../assets/images/calculator.png'
 
 export const portfolioData = [
   {
@@ -31,12 +32,12 @@ export const portfolioData = [
   },
   {
     id: 2,
-    image: Portfolio2,
+    image: Calculator,
     title: 'Matched Betting Training',
     github: 'https://github.com/webdesignbytom/matched-betting',
     demo: 'https://lively-brioche-882d33.netlify.app/',
     icons: [ReactIcon, TailwindIcon, Expressjs, Prisma],
-    images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
+    images: [TavyEpoxy, Calculator, Calculator],
     skills: ["Advanced Algorithms", "Interactive Tutorial", "Forum/media functions", "User Authentication", "Personal Profiles"],
     headline: 'Teaching matched betting with the aim of advert sponsorship',
     desc: 'Matched Betting Training is a app mainly designed to teach a player how to make a series of bets guaranteed to make a profit using our system. It is supported by a fleshed out website of user/member systems and forums for posting tips and tricks creating a community of betters. Most site of this type feature a betting calculator and basic instructions. This site goes one further and has built dummy bookie websites to be used in our "Bet Simulator" which takes you step by step through the processes of making a winning bet.' ,
@@ -52,7 +53,7 @@ export const portfolioData = [
     github: 'https://github.com/webdesignbytom/react-idle-clicker',
     demo: 'https://darling-marigold-5cf601.netlify.app/',
     icons: [ReactIcon, Prisma, CSS3icon],
-    images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
+    images: [BioCLickerPhone, TavyEpoxy, TavyEpoxy],
     skills: ["Autofilled Tweets", "150+ States Managed", "User Authentication", "Localstorage Backups", "Player Achievements Monitoring", "Purchasing Functions", "Variable Menus", 'Admin Panel with users data'],
     headline: 'Game design using state management and purchasing',
     desc: 'Bio-Clikcer a react based idle clicker game. Based on hugely populat phone and browser idle clicker games. This involves a huge amount of player states and is a great example ove the abilities of using state in react. Furthermore rending items, achievements and buildings like they were items in an online store. The player data is all collected and saved to localstorage and server databases for using various devices. Every element on the page is subject to rerendering and has been smoothly layed out to prevent overloading issues',
@@ -67,7 +68,7 @@ export const portfolioData = [
     github: 'https://github.com/webdesignbytom/myecoapp',
     demo: 'https://gorgeous-dusk-add814.netlify.app/',
     icons: [HTML5Icon, TailwindIcon, Expressjs, Prisma],
-    images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
+    images: [TavyEpoxy, MyecoappMonitor, MyecoappMonitor],
     skills: ["Phone first design", "User Authentication", "Liveupdate Highscores", "Modern Layout", "User Achievements", "Data and Error Logging"],
     desc: 'A organizations front page and information to promote green causes. This site has multiple purposes but its main content is a description of the green energy goals it has. It was built to modern popular designs. A colour scheme was picked. It was also the first i designed using Tailwind CSS. Its main features a smoothly laid out pages with varieties for data.',
     featuredComponent: 'Hero Section',
