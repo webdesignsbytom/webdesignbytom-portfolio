@@ -4,6 +4,8 @@ import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine, RiContactsLine } from 'react-icons/ri';
 import { IoMdCodeWorking } from 'react-icons/io';
+import { BsFolder } from 'react-icons/bs';
+
 
 // TODO: Fix phone size nav movement
 
@@ -25,7 +27,7 @@ function Nav() {
         onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#portfolio' ? 'active' : ''}
       >
-        <IoMdCodeWorking />
+        <BsFolder />
         <span className='tooltip__container'>Portfolio</span>
       </a>
       <a

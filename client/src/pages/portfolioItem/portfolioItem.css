@@ -20,7 +20,7 @@
 
 /*  all nav buttons */
 .portfolio__nav button {
-  padding: 0.6rem;
+  padding:  0.6rem;
   cursor: pointer;
   border-radius: 4px;
   text-transform: uppercase;
@@ -124,9 +124,6 @@
   background-color: var(--color-primary);
   display: grid;
   grid-template-rows: auto 1fr;
-}
-
-.featured__item {
 }
 
 /* RIGHT DATA CONTAINER */

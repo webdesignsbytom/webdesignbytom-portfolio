@@ -1,8 +1,8 @@
 import TavyEpoxy from '../assets/images/tavyepoxyfull.png';
 import Portfolio2 from '../assets/images/portfolio2.jpg';
 import BioClicker from '../assets/images/bioclickerfull.png';
-import Portfolio4 from '../assets/images/portfolio4.jpg';
-import Portfolio5 from '../assets/images/portfolio5.png';
+import Myecoapp from '../assets/images/myecoapp.png';
+import LuxuryPoker from '../assets/images/luxury-poker.png';
 import ReactIcon from '../assets/images/reactjs-icon.svg';
 import HTML5Icon from '../assets/images/html5.svg';
 import TailwindIcon from '../assets/images/tailwindcss-icon.svg';
@@ -11,6 +11,7 @@ import Expressjs from '../assets/images/expressjs.svg';
 import Nodejs from '../assets/images/nodejs-icon.svg';
 import Prisma from '../assets/images/file_type_light_prisma.svg';
 import Calculator from '../featureComponents/calculator/Calculator'
+
 
 export const portfolioData = [
   {
@@ -61,7 +62,20 @@ export const portfolioData = [
   },
   {
     id: 4,
-    image: Portfolio4,
+    image: Myecoapp,
+    title: 'Myecoapp',
+    github: 'https://github.com/webdesignbytom/myecoapp',
+    demo: 'https://gorgeous-dusk-add814.netlify.app/',
+    icons: [HTML5Icon, TailwindIcon, Expressjs, Prisma],
+    images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
+    skills: ["Phone first design", "User Authentication", "Liveupdate Highscores", "Modern Layout", "User Achievements", "Data and Error Logging"],
+    desc: 'A organizations front page and information to promote green causes. This site has multiple purposes but its main content is a description of the green energy goals it has. It was built to modern popular designs. A colour scheme was picked. It was also the first i designed using Tailwind CSS. Its main features a smoothly laid out pages with varieties for data.',
+    featuredComponent: 'Hero Section',
+    liveSite: "https://gorgeous-dusk-add814.netlify.app/"
+  },
+  {
+    id: 5,
+    image: LuxuryPoker,
     title: 'Luxury Casino',
     github: 'https://github.com/webdesignbytom/luxury-casino',
     demo: 'https://github.com',
