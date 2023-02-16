@@ -26,10 +26,6 @@
   cursor: pointer;
 }
 
-.portfolio__displayImg {
-  /* height: 300px; */
-}
-
 .portfolio__item-image h3 {
   margin: 1.2rem 0 2rem;
 }
