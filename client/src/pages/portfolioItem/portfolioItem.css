@@ -175,6 +175,7 @@
 .responsive__display__container {
   /* border: 3px solid black; */
   position: relative;
+  display: grid;
 }
 
 .responsive__images__container {
@@ -354,6 +355,12 @@
 }
 
 @media screen and (max-width: 1275px) {
+  .right__container {
+    border: none;
+  }
+  .responsive__display__container {
+    margin-top: 2rem;
+  }
   .laptop {
     display: grid;
     grid-template-rows: 10fr 1fr;
@@ -362,7 +369,6 @@
     position: absolute;
     top: 40%;
     right: 10%;
-    z-index: 2;
   }
 
   .monitor__container {
@@ -371,7 +377,6 @@
     position: absolute;
     top: 5px;
     right: 5px;
-    z-index: 1;
   }
 
   .listOSkills ul li {
@@ -383,6 +388,10 @@
     font-size: 1.6rem;
     padding: 1rem 0;
   }
+
+  .link__btn {
+    height: min-content;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -391,23 +400,16 @@
     grid-auto-flow: row;
     width: 100vw;
   }
+
   .portfolio__nav {
     width: 100vw;
     display: flex;
   }
+
   .port__item__page {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     padding: 0.2rem;
-  }
-  .laptop {
-    position: relative;
-  }
-  .monitor__container {
-    position: relative;
-  }
-  .laptop {
-    position: relative;
   }
 }
