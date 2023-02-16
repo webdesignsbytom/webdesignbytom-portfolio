@@ -29,7 +29,7 @@ export const portfolioData = [
     images: [TavyepoxyPhone, TavyEpoxy, TavyEpoxy],
     skills: ["Responsive Gallery", "3D Design Tool", "Image Slider on loop", "User Authentication", "Advanced CSS colour manipulating"],
     headline: 'A sales and gallery website for a local designer',
-    desc: 'TavyEpoxy, or Tav-E-poxy is a business i run selling my spare artwork as tables. The website was created to display a gallery of possiblities and attract interest in similar designs from customers. The key to getting customers is to make it easy for them to compare the designs in my gallery and the materails available to make orders based on what they find attractive. To address this i have made contact forms with various basic options for quote requesting. Along with a design tool where customers can create a 3D render of the furniture dimensions and artistic patterns desired.',
+    desc: 'TavyEpoxy, or Tav-E-poxy is a business I run selling my spare artwork as tables. The website was created to display a gallery of possiblities and attract interest in similar designs from customers. The key to getting customers is to make it easy for them to compare the designs in my gallery and the materails available to make orders based on what they find attractive. To address this I have made contact forms with various basic options for quote requesting. Along with a design tool where customers can create a 3D render of the furniture dimensions and artistic patterns desired.',
     featuredComponent: '3D Design Tool',
     featuredDisplay: "",
     liveSite: "https://strong-tulumba-d852ca.netlify.app/"
@@ -74,7 +74,7 @@ export const portfolioData = [
     icons: [HTML5Icon, TailwindIcon, Expressjs, Prisma],
     images: [TavyEpoxy, MyecoappMonitor, MyecoappMonitor],
     skills: ["Phone first design", "User Authentication", "Liveupdate Highscores", "Modern Layout", "User Achievements", "Data and Error Logging"],
-    desc: 'A organizations front page and information to promote green causes. This site has multiple purposes but its main content is a description of the green energy goals it has. It was built to modern popular designs. A colour scheme was picked. It was also the first i designed using Tailwind CSS. Its main features a smoothly laid out pages with varieties for data.',
+    desc: 'A organizations front page and information to promote green causes. This site has multiple purposes but its main content is a description of the green energy goals it has. It was built to modern popular designs. A colour scheme was picked. It was also the first I designed using Tailwind CSS. Its main features a smoothly laid out pages with varieties for data.',
     featuredComponent: 'Hero Section',
     liveSite: "https://gorgeous-dusk-add814.netlify.app/"
   },
@@ -88,7 +88,7 @@ export const portfolioData = [
     images: [TavyEpoxy, TavyEpoxy, TavyEpoxy],
     skills: ["Array Comparisons and methods", "User Authentication", "Banking - deposit + withdrawal", "NPC interactions", "Game Design"],
     headline: 'A vanilla JS project built to interact with circuit boards',
-    desc: 'Luxury Casino is a vanilla javascript project i have been building to keep my skills sharp on the basic sides of code without frontend libraries. It is also being specially built to accomidate a circuit board controlled poker chip that will act as you bet button for online gaming. It features account requirements and deposits for banking and gaming. Currently only plays poker but will be adpted to suit all card games. You can choose seats around a table and play texas holdem against up to 5 other players. Dealer position moves around the board. Stats are recorded for player development',
+    desc: 'Luxury Casino is a vanilla javascript project I have been building to keep my skills sharp on the basic sides of code without frontend libraries. It is also being specially built to accomidate a circuit board controlled poker chip that will act as you bet button for online gaming. It features account requirements and deposits for banking and gaming. Currently only plays poker but will be adpted to suit all card games. You can choose seats around a table and play texas holdem against up to 5 other players. Dealer position moves around the board. Stats are recorded for player development',
     featuredComponent: 'Card Trick',
     liveSite: "https://darling-marigold-5cf601.netlify.app/"
   },

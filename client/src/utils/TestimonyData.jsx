@@ -17,7 +17,7 @@ export const testimonyArray = [
       avatar: rvsLogo,
       name: 'Rapid Van Solutions',
       review:
-        'As a non computer literate, Tom was an excellent and affordable person to develope my website for me. He was understanding of what i was looking for and brought it to life for me',
+        'As a non computer literate, Tom was an excellent and affordable person to develope my website for me. He was understanding of what I was looking for and brought it to life for me',
         link: 'http://www.rapidvansolutions.com',
         linkDisplay: 'www.rapidvansolutions.com'
     },
@@ -31,6 +31,6 @@ export const testimonyArray = [
       avatar: avatar4,
       name: 'You!',
       review:
-        'Once i finish youre next project i know you will be here as well saying how great i am!',
+        'Once I finish youre next project I know you will be here as well saying how great I am!',
     },
   ];

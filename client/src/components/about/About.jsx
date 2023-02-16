@@ -50,16 +50,16 @@ function About() {
               <br />
               <small>Web and ciruit design</small>
               <br />
-              <small>See what im building</small>
+              <small>See what i'm building</small>
             </article>
           </div>
           <p>
             After years of electrical engineering and renewable energy
-            installation, i have started developing websites for you! I have
-            always worked in a design and engineering capacity, I even built the desk i work from. <br /> Completing jobs
+            installation, I have started developing websites for you! I have
+            always worked in a design and engineering capacity, I even built the desk I work from. <br /> Completing jobs
             that have logic puzzles or require solving problems has always made
             me happy. My personal projects combine circuits and web design for
-            developing products i hope to achieve success with. 
+            developing products I hope to achieve success with. 
           </p>
           <p>I am also an artist, carpenter, master scuba diver, syrup maker and entrepreneur.</p>
           <div className='button__container'>
