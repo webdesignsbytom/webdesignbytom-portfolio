@@ -48,9 +48,9 @@ function About() {
               <h5>Projects</h5>
               <small>My Personal Projects</small>
               <br />
-              <small>Web and ciruit design</small>
+              <small>Web and circuit design</small>
               <br />
-              <small>See what i'm building</small>
+              <small>See what I'm building</small>
             </article>
           </div>
           <p>
