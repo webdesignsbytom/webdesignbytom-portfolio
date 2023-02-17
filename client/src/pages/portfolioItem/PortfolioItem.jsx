@@ -1,27 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { portfolioData } from '../../utils/portfolioData';
+import { portfolioData, initialData } from '../../utils/portfolioData';
+
 import './portfolioItem.css';
 
 function PortfolioItem() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const [portfolioItem, setPortfolioItem] = useState({
-    id: 1,
-    image: '',
-    title: '',
-    github: '',
-    demo: '',
-    icons: ['', ''],
-    images: ['', '', ''],
-    skills: ['', '', ''],
-    headline: '',
-    desc: '',
-    featuredComponent: '',
-    featuredDisplay: '',
-  });
+  const [portfolioItem, setPortfolioItem] = useState(initialData);
 
   // Set the item to be displayed
   useEffect(() => {
@@ -29,9 +17,7 @@ function PortfolioItem() {
     if (location.state) {
       setPortfolioItem(location.state);
     } else {
-      navigate('/error', {
-        replace: true,
-      });
+      setPortfolioItem(portfolioData[0]);
     }
   }, []);
 
@@ -60,7 +46,7 @@ function PortfolioItem() {
     }
   };
 
-  console.log('XXXX', portfolioItem)
+  console.log('XXXX', portfolioItem);
 
   return (
     <>
@@ -113,14 +99,7 @@ function PortfolioItem() {
                 </div>
               </div>
 
-              <div className='featuredComponent__container'>
-                <div className='skills__title'>
-                  <h3>Featured Component</h3>
-                </div>
-                <div className='featured__item'>
-                  {portfolioItem.featuredDisplay}
-                </div>
-              </div>
+              
             </div>
           </div>
 
@@ -147,7 +126,7 @@ function PortfolioItem() {
               <div className='phone'>
                 <div className='outer__phone'>
                   <div className='phone__screen'>
-                    <img src={portfolioItem.images[0]} alt="phone display" />
+                    <img src={portfolioItem.images[0]} alt='phone display' />
                   </div>
                   <div className='menu__circle__container'>
                     <div className='menu__circle'></div>
@@ -159,8 +138,7 @@ function PortfolioItem() {
                 <div className='laptop__screen__container'>
                   <div className='laptop__screen'>
                     <div className='inner__border'>
-                    <img src={portfolioItem.images[1]} alt="laptop display" />
-
+                      <img src={portfolioItem.images[1]} alt='laptop display' />
                     </div>
                   </div>
                 </div>
@@ -176,8 +154,7 @@ function PortfolioItem() {
               <div className='monitor__container'>
                 <div className='screen__container'>
                   <div className='screen'>
-                  <img src={portfolioItem.images[2]} alt="phone display" />
-
+                    <img src={portfolioItem.images[2]} alt='phone display' />
                   </div>
                   <div className='buttons__row'>
                     <div className='buttonX'></div>

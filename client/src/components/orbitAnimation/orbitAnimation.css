@@ -205,3 +205,27 @@
     padding-right: 30rem;
   }
 }
+
+/* JAVASCRIPT */
+.satellite8 {
+  position: absolute;
+  z-index: 2;
+  animation: animateSatellite7 5s linear infinite;
+  transform: rotate(-22deg);
+}
+
+@keyframes animateSatellite7 {
+  25% {
+    padding-left: 30rem;
+    z-index: 2;
+  }
+  26% {
+    z-index: -1;
+  }
+  50% {
+    scale: 0.1;
+  }
+  75% {
+    padding-right: 30rem;
+  }
+}

@@ -3,7 +3,7 @@ import './orbitAnimation.css';
 import GitHubIcon from '../../assets/images/github-black.svg'
 import HTML5Icon from '../../assets/images/html5.svg'
 import NodeIcon from '../../assets/images/nodejs.svg'
-import CSSIcon from '../../assets/images/css3.svg'
+import Javascript from '../../assets/images/javascript.svg'
 import ExpressJS from '../../assets/images/expressjs.svg'
 import ReactJSIcon from '../../assets/images/reactjs-icon.svg';
 import TailwindIcon from '../../assets/images/tailwindcss-icon.svg';
@@ -22,6 +22,7 @@ function OrbitAnimation() {
         <div className='satellite satellite5'><img src={ExpressJS} alt="node js icon" /></div>
         <div className='satellite satellite6'><img src={TailwindIcon} alt="node js icon" /></div>
         <div className='satellite satellite7'><img src={Prisma} alt="node js icon" /></div>
+        <div className='satellite satellite8'><img src={Javascript} alt="node js icon" /></div>
         
       </div>
     </div>
