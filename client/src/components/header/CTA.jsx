@@ -1,6 +1,6 @@
 import React from 'react'
+// PDF
 import CV from '../../assets/files/TomBrockingtonResume2023.pdf'
-let x = 1
 
 function CTA() {
   return (

@@ -176,6 +176,7 @@ function PortfolioItem() {
                   target='_blank'
                   className='btn__alt'
                   href={portfolioItem.liveSite}
+                  rel="noreferrer"
                 >
                   LIVE SITE
                 </a>
