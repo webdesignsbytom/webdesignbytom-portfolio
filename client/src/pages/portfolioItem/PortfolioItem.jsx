@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { portfolioData, initialData } from '../../utils/portfolioData';
+import { portfolioData, initialData } from '../../utils/PortfolioData';
 
 import './portfolioItem.css';
 

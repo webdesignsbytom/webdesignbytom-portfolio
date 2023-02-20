@@ -1,7 +1,10 @@
 import React from 'react';
-import './experience.css';
+// Icons
 import { BsPatchCheckFill } from 'react-icons/bs';
+// Images
 import OrbitAnimation from '../orbitAnimation/OrbitAnimation';
+// Styles
+import './experience.css';
 
 function Experience() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
 import { useNavigate } from 'react-router-dom';
-import { portfolioData } from '../../utils/portfolioData';
+import { portfolioData } from '../../utils/PortfolioData';
 
 function Portfolio() {
   console.log('products', portfolioData);
