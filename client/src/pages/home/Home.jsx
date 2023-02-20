@@ -9,6 +9,8 @@ import Nav from '../../components/nav/Nav';
 import Portfolio from '../../components/portfolio/Portfolio';
 import Services from '../../components/services/Services';
 import Testimonials from '../../components/testimonials/Testimonials';
+// Styles
+import './home.css'
 
 function Home() {
   return (
