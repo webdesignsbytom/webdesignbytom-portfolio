@@ -1,18 +1,18 @@
 import React from 'react';
 import './portfolio.css';
 import { useNavigate } from 'react-router-dom';
-import { portfolioData } from '../../utils/portfolioData'
+import { portfolioData } from '../../utils/portfolioData';
 
 function Portfolio() {
-console.log('products', portfolioData);
+  console.log('products', portfolioData);
   const navigate = useNavigate();
 
   const displayInfo = (item) => {
     console.log('itemsssss', item);
     navigate('/portfolioItem', {
-      state: item
+      state: item,
     });
-};
+  };
 
   return (
     <section id='portfolio'>
@@ -22,9 +22,14 @@ console.log('products', portfolioData);
       <div className='container portfolio__container'>
         {portfolioData.map((item, index) => {
           return (
-            <article className='portfolio__item' key={index} >
+            <article className='portfolio__item' key={index}>
               <div className='portfolioImg__container'>
-                <img className='portfolio__displayImg' src={item.image} onClick={() => displayInfo(item)} alt='portfolio item' />
+                <img
+                  className='portfolio__displayImg'
+                  src={item.image}
+                  onClick={() => displayInfo(item)}
+                  alt='portfolio item'
+                />
 
                 <div className='icon__container'>
                   {item.icons.map((icon, index) => {
@@ -43,7 +48,10 @@ console.log('products', portfolioData);
                 <a href={item.demo} className='btn btn-primary'>
                   Live Demo
                 </a>
-                <a onClick={() => displayInfo(item)} className='btn btn-primary'>
+                <a
+                  onClick={() => displayInfo(item)}
+                  className='btn btn-primary'
+                >
                   More Info
                 </a>
               </div>
