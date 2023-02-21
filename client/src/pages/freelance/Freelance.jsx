@@ -1,7 +1,7 @@
 import React from 'react';
 // Images
 import CodeImg from '../../assets/images/codeImage.png';
-import MYEA from '../../assets/images/myea2.png';
+import MYEA from '../../assets/images/myecoapp.png';
 // Styles
 import './freelance.css';
 

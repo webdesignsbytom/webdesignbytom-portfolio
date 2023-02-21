@@ -5,7 +5,7 @@ import TailwindIcon from '../assets/images/tailwindcss-icon.svg';
 import CSS3icon from '../assets/images/css3.svg';
 import Expressjs from '../assets/images/expressjs.svg';
 import Prisma from '../assets/images/file_type_light_prisma.svg';
-import Javascript from '../assets/images/javascript.svg';
+import Javascript from '../assets/images/logo-javascript.svg';
 // Photos
 import TavyEpoxy from '../assets/images/tavyepoxyfull.png';
 import BioClicker from '../assets/images/bioclickerMonitor.png';
@@ -107,7 +107,7 @@ export const portfolioData = [
     github: 'https://github.com/webdesignbytom/myecoapp',
     demo: 'https://gorgeous-dusk-add814.netlify.app/',
     icons: [Javascript, ReactIcon, TailwindIcon, Expressjs, Prisma],
-    images: [MyecoappPhone, MyecoappMonitor, MyecoappMonitor],
+    images: [MyecoappPhone, Myecoapp, Myecoapp],
     skills: [
       'Phone first design',
       'User Authentication',
