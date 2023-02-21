@@ -215,6 +215,7 @@
   border-radius: 12px;
   background-color: white;
   overflow: hidden;
+  object-fit: contain;
 }
 
 .phone__screen img{

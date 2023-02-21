@@ -7,16 +7,15 @@ import Expressjs from '../assets/images/expressjs.svg';
 import Prisma from '../assets/images/file_type_light_prisma.svg';
 import Javascript from '../assets/images/logo-javascript.svg';
 // Photos
-import TavyEpoxy from '../assets/images/tavyepoxyfull.png';
-import BioClicker from '../assets/images/bioclickerMonitor.png';
-import Myecoapp from '../assets/images/myecoapp.png';
-import LuxuryPoker from '../assets/images/luxury-poker.png';
-import MyecoappMonitor from '../assets/images/myecoappMonitor.png';
-import Calculator from '../assets/images/calculator.png';
+import TavyEpoxyMd from '../assets/images/tavyepoxyMd.png';
+import BioClicker from '../assets/images/bioclickerMd.png';
+import Myecoapp from '../assets/images/myeaMd.png';
+import LuxuryPoker from '../assets/images/pokerMd.png';
+import Calculator from '../assets/images/calculatorMd.png';
 // Photos - Phone
-import BioCLickerPhone from '../assets/images/bioclickerPhone.jpg';
-import MyecoappPhone from '../assets/images/myecoappPhone.jpg';
-import TavyepoxyPhone from '../assets/images/tavyepoxyPhone.jpg';
+import BioCLickerPhone from '../assets/images/bioclickerSm.png';
+import MyecoappPhone from '../assets/images/myeaSm.jpg';
+import TavyepoxyPhone from '../assets/images/tavyepoxySm.png';
 import MatchedbettingPhone from '../assets/images/matchedbettingPhone.jpg';
 
 export const initialData = {
@@ -37,12 +36,12 @@ export const initialData = {
 export const portfolioData = [
   {
     id: 1,
-    image: TavyEpoxy,
+    image: TavyEpoxyMd,
     title: 'TavyEpoxy Furniture',
     github: 'https://github.com/webdesignbytom/tavy_epoxy',
     demo: 'https://strong-tulumba-d852ca.netlify.app/',
     icons: [Javascript, ReactIcon, CSS3icon, Expressjs, Prisma],
-    images: [TavyepoxyPhone, TavyEpoxy, TavyEpoxy],
+    images: [TavyepoxyPhone, TavyEpoxyMd, TavyEpoxyMd],
     skills: [
       'Responsive Gallery',
       '3D Design Tool',
