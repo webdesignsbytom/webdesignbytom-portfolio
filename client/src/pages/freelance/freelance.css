@@ -1,8 +1,9 @@
 .freelance__container {
     border: red solid 3px;
     display: grid;
-    max-height: 100vh;
     overflow: hidden;
+    width: 86%;
+    margin: 0 auto;
 }
 
 .freelance__section__one {

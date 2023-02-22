@@ -2,13 +2,14 @@ import React from 'react';
 // Images
 import CodeImg from '../../assets/images/codeImage.png';
 import MYEA from '../../assets/images/myecoapp.png';
+import PricingGuide from '../../components/pricingGuide/PricingGuide';
 // Styles
 import './freelance.css';
 
 function Freelance() {
   return (
     <>
-      <section id='freelance' className='container freelance__container'>
+      <section id='freelance' className='freelance__container'>
         <section className='freelance__section__one'>
           <div className='freelance__titles'>
             <h1>Freelance Web Design </h1>
@@ -42,6 +43,7 @@ function Freelance() {
             </div>
           </article>
         </section>
+        <PricingGuide />
       </section>
     </>
   );
