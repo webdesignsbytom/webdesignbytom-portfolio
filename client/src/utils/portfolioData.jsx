@@ -1,11 +1,11 @@
 // Icons
-import ReactIcon from '../assets/images/reactjs-icon.svg';
-import HTML5Icon from '../assets/images/html5.svg';
-import TailwindIcon from '../assets/images/tailwindcss-icon.svg';
-import CSS3icon from '../assets/images/css3.svg';
-import Expressjs from '../assets/images/expressjs.svg';
-import Prisma from '../assets/images/file_type_light_prisma.svg';
-import Javascript from '../assets/images/logo-javascript.svg';
+import ReactIcon from '../assets/images/svg/reactjs-icon.svg';
+import HTML5Icon from '../assets/images/svg/html5.svg';
+import TailwindIcon from '../assets/images/svg/tailwindcss-icon.svg';
+import CSS3icon from '../assets/images/svg/css3.svg';
+import Expressjs from '../assets/images/svg/expressjs.svg';
+import Prisma from '../assets/images/svg/file_type_light_prisma.svg';
+import Javascript from '../assets/images/svg/logo-javascript.svg';
 // Photos
 import TavyEpoxyMd from '../assets/images/tavyepoxyMd.png';
 import BioClicker from '../assets/images/bioclickerMd.png';
