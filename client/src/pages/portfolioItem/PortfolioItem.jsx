@@ -9,41 +9,43 @@ function PortfolioItem() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [portfolioItem, setPortfolioItem] = useState(initialData);
 
   // Set the item to be displayed
   useEffect(() => {
-    console.log('location: ', location);
+    console.log('location: ', location.state);
     if (location.state) {
       setPortfolioItem(location.state);
+      const index = portfolioData.indexOf(portfolioData.find(e => e.title === location.state.title))
+      console.log('index: ', index);
+      setCurrentIndex(index)
     } else {
       setPortfolioItem(portfolioData[0]);
     }
   }, []);
+
+  useEffect(() => {
+    setPortfolioItem(portfolioData[currentIndex]);
+  }, [currentIndex]);
 
   const returnHome = () => {
     navigate('../', {});
   };
 
   const nextPage = () => {
-    const currentId = portfolioItem.id;
-    const newPageItem = portfolioData[currentId];
-
-    if (currentId === portfolioData.length) {
-      setPortfolioItem(portfolioData[0]);
+    if (currentIndex === portfolioData.length - 1) {
+      setCurrentIndex(0);
     } else {
-      setPortfolioItem(newPageItem);
+      setCurrentIndex((prev) => prev + 1);
     }
   };
-  const prevPage = () => {
-    const currentId = portfolioItem.id;
-    const newPageItem = portfolioData[currentId];
 
-    if (currentId === portfolioData.length) {
-      setPortfolioItem(portfolioData[0]);
-    } else {
-      setPortfolioItem(newPageItem);
+  const prevPage = () => {
+    if (currentIndex === 0) {
+      setCurrentIndex(portfolioData.length);
     }
+    setCurrentIndex((prev) => prev - 1);
   };
 
   return (
