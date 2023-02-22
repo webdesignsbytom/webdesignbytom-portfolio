@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { portfolioData, initialData } from '../../utils/PortfolioData';
+import { portfolioData, initialData } from '../../utils/portfolioData';
 
 import './portfolioItem.css';
 
@@ -45,8 +45,6 @@ function PortfolioItem() {
       setPortfolioItem(newPageItem);
     }
   };
-
-  console.log('XXXX', portfolioItem);
 
   return (
     <>
